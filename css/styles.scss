@@ -10,7 +10,10 @@ $link-decoration: none;
 
 // 4. Include any default map overrides here
 $custom-colors: (
-	"farve": $cyan-400,
+	"darkgreen": #004032,
+	"lightgreen": #BADEB9,
+	"yellow": #FFD300,
+	"orange": #FF5E37,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -19,17 +22,18 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // 5. Du kan lave styling her...
 
+.wishingtree-text-navbar{
+	font-size: 3rem;
+}
 
-
+.nav-link-text{
+	font-size: 1.25rem;
+}
 
 .bottom-nav {
-	position: fixed;
 	bottom: 0;
 	width: 100%;
-	background-color: #0f3d2e;
 	padding: 20px 0;
-	display: flex;
-	justify-content: center;
 	z-index: 10;
 }
 
@@ -74,7 +78,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 .nav-highlight-inner {
 	width: 50px;
 	height: 50px;
-	background-color: #0f3d2e;
+	background-color: #004032;
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
