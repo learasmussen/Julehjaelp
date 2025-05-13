@@ -42,9 +42,9 @@
             ØNSKETRÆET
         </a>
         <div class="d-flex justify-content-evenly pe-3">
-            <a class="nav-link text-darkgreen nav-link-text pe-4" href="#">DONÉR ET BELØB</a>
-            <a class="nav-link text-darkgreen nav-link-text px-4" href="#">ØNSKETRÆET</a>
-            <a class="nav-link text-darkgreen nav-link-text ps-4" href="#">INFORMATION</a>
+            <a class="nav-link text-darkgreen nav-link-text pe-4" href="donate.php">DONÉR ET BELØB</a>
+            <a class="nav-link text-darkgreen nav-link-text px-4" href="index.php">ØNSKETRÆET</a>
+            <a class="nav-link text-darkgreen nav-link-text ps-4" href="info.php">INFORMATION</a>
         </div>
 
     </div>
