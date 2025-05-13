@@ -21,7 +21,7 @@ require "settings/init.php";
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body style="background: white url('images/JHDeskBackground.png') center top / contain no-repeat; min-height: 100vh;">
+<body style="background: white url('images/JHDeskBackground.png') center / contain no-repeat; min-height: 100vh;">
 
 <?php include("includes/navbar.php") ?>
 
@@ -33,7 +33,7 @@ require "settings/init.php";
 
     <div class="pt-4">
         <label for="customAmount" class="form-label">Indtast et valgfrit beløb:</label>
-        <input type="number" id="customAmount" class="form-control w-75 mx-auto border-black rounded-0 py-3" placeholder="l">
+        <input type="number" id="customAmount" class="form-control w-75 mx-auto border-black rounded-0 py-3">
     </div>
 </div>
 
