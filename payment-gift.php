@@ -21,8 +21,7 @@ require "settings/init.php";
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body style="background: white url('images/JHDeskBackground.png') center top / contain no-repeat; min-height: 100vh;">
-
+<body style="background: white url('images/JHDeskBackground.png') center / contain no-repeat; min-height: 100vh;">
 
 <?php include("includes/navbar.php") ?>
 
