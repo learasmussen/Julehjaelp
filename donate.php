@@ -48,7 +48,7 @@ require "settings/init.php";
                     </ul>
                     <p class="fw-bold mb-4">Hvert beløb tæller.</p>
                 </div>
-                <a href="#" class="btn btn-yellow fw-bold px-4 py-2 mt-auto">Donér her</a>
+                <a href="payment.php" class="btn btn-yellow fw-bold px-4 py-2 mt-auto">Donér her</a>
             </div>
         </div>
 
@@ -74,7 +74,7 @@ require "settings/init.php";
                     </p>
                     <p class="mb-4">– Anonym mor</p>
                 </div>
-                <a href="#" class="btn btn-yellow fw-bold px-4 py-2">Donér her</a>
+                <a href="payment.php" class="btn btn-yellow fw-bold px-4 py-2">Donér her</a>
             </div>
         </div>
     </div>
