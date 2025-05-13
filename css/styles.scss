@@ -22,12 +22,12 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // 5. Du kan lave styling her...
 
-.wishingtree-text-navbar{
-	font-size: 3rem;
+.info-header-text{
+	font-size: 2rem;
 }
 
-.nav-link-text{
-	font-size: 1.25rem;
+.wishingtree-text-navbar{
+	font-size: 3rem;
 }
 
 .bottom-nav {
@@ -85,4 +85,76 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	align-items: center;
 	color: white;
 	font-size: 1.3rem;
+}
+
+@media only screen and (min-width: 768px){
+
+	.doner-et-beløb-knap{
+		font-size: 1.25rem;
+	}
+
+	.info-header-text{
+		font-size: 1.5rem;
+	}
+
+	.info-middle-text{
+		font-size: 1rem;
+	}
+
+	.info-list-items{
+		font-size: 14px;
+	}
+
+	.nav-link-text{
+		font-size: 13px;
+	}
+
+}
+
+@media only screen and (min-width: 1024px){
+	.nav-link-text{
+		font-size: 1.25rem;
+	}
+
+	.info-header-text{
+		font-size: 2rem;
+	}
+
+	.info-middle-text{
+		font-size: 1.5rem;
+	}
+
+	.info-list-items{
+		font-size: 1.25rem;
+	}
+
+	.doner-et-beløb-knap{
+		font-size: 1.5rem;
+	}
+}
+
+@media only screen and (min-width: 1440px){
+	.wishingtree-text-navbar{
+		font-size: 4rem;
+	}
+
+	.nav-link-text{
+		font-size: 1.5rem;
+	}
+
+	.info-header-text{
+		font-size: 2.5rem;
+	}
+
+	.info-middle-text{
+		font-size: 2rem;
+	}
+
+	.info-list-items{
+		font-size: 1.75rem;
+	}
+
+	.doner-et-beløb-knap{
+		font-size: 2rem;
+	}
 }

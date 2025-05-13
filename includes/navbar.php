@@ -17,7 +17,7 @@
 <body>
 
 <!-- Bottom navigation -->
-<div class="bottom-nav bg-darkgreen d-flex justify-content-center position-fixed d-lg-none p-0">
+<div class="bottom-nav bg-darkgreen d-flex justify-content-center position-fixed d-md-none d-lg-none p-0">
     <div class="nav-wrapper">
         <!-- Fremhævning -->
         <div class="nav-highlight" id="highlight">
@@ -28,20 +28,20 @@
 
         <!-- Ikoner -->
         <div class="nav-icons">
-            <div class="nav-icon" data-icon="fa-dollar-sign"><i class="fa-solid fa-dollar-sign"></i></div>
-            <div class="nav-icon" data-icon="fa-tree"><i class="fa-solid fa-tree"></i></div>
-            <div class="nav-icon" data-icon="fa-circle-info"><i class="fa-solid fa-circle-info"></i></div>
+            <a href="donate.php" class="nav-icon" data-icon="fa-dollar-sign"><i class="fa-solid fa-dollar-sign"></i></a>
+            <a href="index.php" class="nav-icon" data-icon="fa-tree"><i class="fa-solid fa-tree"></i></a>
+            <a href="info.php" class="nav-icon" data-icon="fa-circle-info"><i class="fa-solid fa-circle-info"></i></a>
         </div>
     </div>
 </div>
 
 <!-- Navbar kun synlig på desktop -->
-<nav class="navbar fixed-top d-none d-lg-flex">
-    <div class="container-fluid m-0 px-4">
-        <a class="navbar-brand text-success fw-bold text-darkgreen wishingtree-text-navbar m-0 py-0" href="#">
+<nav class="navbar d-none d-md-flex d-lg-flex">
+    <div class="container-fluid m-0 p-0">
+        <a class="navbar-brand text-success ps-3 fw-bold text-darkgreen wishingtree-text-navbar m-0 py-0" href="#">
             ØNSKETRÆET
         </a>
-        <div class="d-flex justify-content-evenly">
+        <div class="d-flex justify-content-evenly pe-3">
             <a class="nav-link text-darkgreen nav-link-text pe-4" href="#">DONÉR ET BELØB</a>
             <a class="nav-link text-darkgreen nav-link-text px-4" href="#">ØNSKETRÆET</a>
             <a class="nav-link text-darkgreen nav-link-text ps-4" href="#">INFORMATION</a>

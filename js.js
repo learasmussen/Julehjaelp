@@ -20,8 +20,20 @@ function moveHighlightTo(icon) {
 }
 
 window.addEventListener('load', () => {
-    const defaultIcon = document.querySelector('[data-icon="fa-tree"]');
-    moveHighlightTo(defaultIcon);
+    const path = window.location.pathname;
+    let currentIcon;
+
+    if (path.includes('donate')) {
+        currentIcon = document.querySelector('[data-icon="fa-dollar-sign"]');
+    } else if (path.includes('info')) {
+        currentIcon = document.querySelector('[data-icon="fa-circle-info"]');
+    } else {
+        currentIcon = document.querySelector('[data-icon="fa-tree"]'); // default
+    }
+
+    if (currentIcon) {
+        moveHighlightTo(currentIcon);
+    }
 });
 
 icons.forEach(icon => {
