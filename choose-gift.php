@@ -30,19 +30,19 @@ require "settings/init.php";
         Vælg og bekræft din gave herunder
     </p>
 
-    <div class="container g-2 mt-3">
-        <div class="row mb-5">
+    <div class="container g-2 mt-5">
+        <div class="row">
             <?php
             $sql = "SELECT * FROM wishes ORDER BY wishId DESC LIMIT 3";
             $wishes = $db->sql($sql);
 
             foreach($wishes as $wish) {
                 ?>
-                <div class="col-12 col-md-6 mb-4">
+                <div class="col-12 col-md-4 mb-5">
                     <div class="bg-darkgreen text-white rounded-5 p-4 h-100 d-flex flex-column justify-content-between">
                         <div>
-                            <h4 class="mb-2"><?php echo htmlspecialchars($wish->wishName); ?> (<?php echo (int)$wish->wishAge; ?> år)</h4>
-                            <p class="mb-4">Ønske: <?php echo htmlspecialchars($wish->wishWish); ?></p>
+                            <h3 class="mb-2 text-center"><?php echo htmlspecialchars($wish->wishName); ?> <?php echo (int)$wish->wishAge; ?> år</h3>
+                            <h5 class="mb-4 text-center">Ønsker sig: <?php echo htmlspecialchars($wish->wishWish); ?></h5>
                         </div>
                         <a href="#" class="btn btn-yellow fw-bold px-4 py-2 mt-auto">Vælg gave</a>
                     </div>
