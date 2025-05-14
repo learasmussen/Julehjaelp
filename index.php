@@ -34,7 +34,7 @@ require "settings/init.php";
 
 <div class="text-center mt-4 d-none d-md-block">
     <p>Velkommen til ønsketræet!</p>
-    <a href="#" class="btn btn-yellow btn-lg fw-bold">Giv en gave</a>
+    <a href="choose-gift.php" class="btn btn-yellow btn-lg fw-bold">Giv en gave</a>
 </div>
 
 
@@ -45,7 +45,7 @@ require "settings/init.php";
     <p>Velkommen til julehjælp!</p>
     <p>Giv julehjælpen videre, vælg et ønske og gør julen magisk for en anden</p>
     <img class="img-fluid" src="images/træ.png" alt="træ">
-    <a class="btn btn-yellow btn-lg mt-3 fw-bold" href="#">Giv en gave</a>
+    <a class="btn btn-yellow btn-lg mt-3 fw-bold" href="choose-gift.php">Giv en gave</a>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
