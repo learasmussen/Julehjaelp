@@ -38,9 +38,6 @@ require "settings/init.php";
 </div>
 
 
-
-
-
 <div class="container text-center">
     <h1 class= "text-darkgreen text-center fw-bolder fs-1 mt-5 d-block d-md-none">ØNSKETRÆET</h1>
 </div>
