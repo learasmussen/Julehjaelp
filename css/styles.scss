@@ -22,6 +22,14 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // 5. Du kan lave styling her...
 
+.thank-you-header{
+	font-size: 4rem;
+}
+
+.thank-you-text{
+	font-size: 1.5rem;
+}
+
 .info-header-text{
 	font-size: 2rem;
 }
@@ -109,6 +117,15 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 		font-size: 13px;
 	}
 
+	.thank-you-header{
+		font-size: 5rem;
+	}
+
+	.thank-you-text{
+		font-size: 2rem;
+	}
+
+
 }
 
 @media only screen and (min-width: 1024px){
@@ -131,6 +148,16 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	.doner-et-beløb-knap{
 		font-size: 1.5rem;
 	}
+
+	.thank-you-header{
+		font-size: 6rem;
+	}
+
+	.thank-you-text{
+		font-size: 3rem;
+	}
+
+
 }
 
 @media only screen and (min-width: 1440px){
@@ -156,5 +183,9 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 	.doner-et-beløb-knap{
 		font-size: 2rem;
+	}
+
+	.thank-you-button-text{
+		font-size: 1.5rem;
 	}
 }
