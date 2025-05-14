@@ -33,7 +33,7 @@ require "settings/init.php";
     <div class="container g-2 mt-5">
         <div class="row">
             <?php
-            $sql = "SELECT * FROM wishes ORDER BY wishId DESC LIMIT 3";
+            $sql = "SELECT * FROM wishes ORDER BY wishId ASC LIMIT 3";
             $wishes = $db->sql($sql);
 
             foreach($wishes as $wish) {
