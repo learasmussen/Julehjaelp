@@ -46,7 +46,7 @@ require "settings/init.php";
 </div>
 <div class="container text-center mt-4 d-block d-md-none">
     <p class="thank-you-text">Julemanden er på sagen!</p>
-    <img class="img-fluid" src="images/træ.png" alt="træ">
+    <img class="img-fluid" src="images/santa-claus-santa.gif" alt="træ">
     <a class="btn btn-yellow btn-lg mt-3 fw-bold" href="#">Giv en gave</a>
     <a class="btn btn-lg mt-3 fw-bold text-decoration-underline" href="#">Tilbage til forsiden</a>
 </div>
