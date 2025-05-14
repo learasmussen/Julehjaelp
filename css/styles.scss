@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "../node_modules/bootstrap/scss/functions";
 
 // 2. Include any default variable overrides here
 $link-decoration: none;
+$font-family-base: 'Roboto Condensed', sans-serif;
+$font-family-base: 'Instrument Serif', sans-serif;
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
