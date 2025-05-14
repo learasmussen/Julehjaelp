@@ -22,6 +22,65 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // 5. Du kan lave styling her...
 
+.largeFont {
+	font-size: 3rem;
+	font-weight: bold;
+	color: #004032;
+}
+.accordion-button:focus {
+	box-shadow: none;
+}
+.btn-payment {
+	background-color: #FFD300;
+	color: #000000;
+	font-weight: bold;
+	border: none;
+}
+
+.accordion-button::after {
+	display: none !important;
+}
+
+.accordion-body {
+	background-color: #bcbcbc;
+}
+
+.accordion-button {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.payment-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.payment-left {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.payment-left label {
+	font-weight: normal;
+	margin: 0;
+	font-size: 1.1rem;
+}
+
+.payment-logos img {
+	margin-left: 10px;
+	height: 30px;
+}
+
+.form-check-input {
+	width: 1.4rem;
+	height: 1.4rem;
+	margin-top: 0;
+}
+
+
 .info-header-text{
 	font-size: 2rem;
 }
@@ -109,6 +168,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 		font-size: 13px;
 	}
 
+
 }
 
 @media only screen and (min-width: 1024px){
@@ -169,60 +229,4 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 
 
-.largeFont {
-	font-size: 3rem;
-	font-weight: bold;
-	color: #004032;
-}
-.accordion-button:focus {
-	box-shadow: none;
-}
-.btn-payment {
-	background-color: #FFD300;
-	color: #000000;
-	font-weight: bold;
-	border: none;
-}
 
-.accordion-button::after {
-	display: none !important;
-}
-
-.accordion-body {
-	background-color: #bcbcbc;
-}
-
-.accordion-button {
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-
-.payment-header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	width: 100%;
-}
-
-.payment-left {
-	display: flex;
-	align-items: center;
-	gap: 10px;
-}
-
-.payment-left label {
-	font-weight: normal;
-	margin: 0;
-	font-size: 1.1rem;
-}
-
-.payment-logos img {
-	margin-left: 10px;
-	height: 30px;
-}
-
-.form-check-input {
-	width: 1.4rem;
-	height: 1.4rem;
-	margin-top: 0;
-}

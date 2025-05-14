@@ -21,19 +21,22 @@ require "settings/init.php";
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body style="background: white url('images/JHDeskBackground.png') center / contain no-repeat; min-height: 100vh;">
+<body>
+
 
 <?php include("includes/navbar.php") ?>
 
 
 <!-- Overskrift og tekstfelt -->
-<div class="text-center mb-4 pt-5">
+<div class="container text-center mb-4 pt-5">
     <h1 class="fw-bold largeFont">BETALING</h1>
     <p>Alle transaktioner er sikre og krypterede.</p>
 
-    <div class="pt-4">
+    <div class="row d-flex flex-column justify-content-center align-items-center">
+    <div class="col-12 col-md-8 col-lg-6 d-flex flex-column justify-content-center align-items-center pt-4 mx-lg-5 px-lg-5">
         <label for="customAmount" class="form-label">Indtast et valgfrit beløb:</label>
-        <input type="number" id="customAmount" class="form-control w-75 mx-auto border-black rounded-0 py-3">
+        <input type="number" id="customAmount" class=" form-control w-75 mx-auto border-black rounded-0 py-3">
+    </div>
     </div>
 </div>
 
@@ -98,7 +101,7 @@ require "settings/init.php";
 
             <!-- Knap med fuldfør betaling -->
             <div class="text-center">
-                <button class="btn btn-payment btn-lg w-50 w-lg-50">Fuldfør betaling</button>
+                <button class="btn btn-payment w-50 w-lg-50">Fuldfør betaling</button>
             </div>
 
         </div>
