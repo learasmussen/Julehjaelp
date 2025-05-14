@@ -33,7 +33,7 @@ require "settings/init.php";
 </div>
 
 <div class="text-center mt-4 d-none d-md-block">
-    <p>Velkommen til ønsketræet!</p>
+    <p>Velkommen til Ønsketræet!</p>
     <a href="choose-gift.php" class="btn btn-yellow btn-lg fw-bold">Giv en gave</a>
 </div>
 
