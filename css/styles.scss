@@ -3,9 +3,6 @@
 
 // 2. Include any default variable overrides here
 $link-decoration: none;
-$font-family-base: 'Roboto Condensed', sans-serif;
-$font-family-base: 'Instrument Serif', sans-serif;
-
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
@@ -25,71 +22,13 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // 5. Du kan lave styling her...
 
-
-body {
-	font-family: 'Instrument Serif', sans-serif;
+.thank-you-header{
+	font-size: 4rem;
 }
 
-.largeFont {
-	font-size: 3rem;
-	font-weight: bold;
-	color: #004032;
-	font-family: 'Instrument Serif', serif;
+.thank-you-text{
+	font-size: 1.5rem;
 }
-
-.accordion-button:focus {
-	box-shadow: none;
-}
-.btn-payment {
-	background-color: #FFD300;
-	color: #000000;
-	font-weight: bold;
-	border: none;
-}
-
-.accordion-button::after {
-	display: none !important;
-}
-
-.accordion-body {
-	background-color: #bcbcbc;
-}
-
-.accordion-button {
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-
-.payment-header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	width: 100%;
-}
-
-.payment-left {
-	display: flex;
-	align-items: center;
-	gap: 10px;
-}
-
-.payment-left label {
-	font-weight: normal;
-	margin: 0;
-	font-size: 1.1rem;
-}
-
-.payment-logos img {
-	margin-left: 10px;
-	height: 30px;
-}
-
-.form-check-input {
-	width: 1.4rem;
-	height: 1.4rem;
-	margin-top: 0;
-}
-
 
 .info-header-text{
 	font-size: 2rem;
@@ -178,6 +117,13 @@ body {
 		font-size: 13px;
 	}
 
+	.thank-you-header{
+		font-size: 5rem;
+	}
+
+	.thank-you-text{
+		font-size: 2rem;
+	}
 
 }
 
@@ -200,6 +146,14 @@ body {
 
 	.doner-et-beløb-knap{
 		font-size: 1.5rem;
+	}
+
+	.thank-you-header{
+		font-size: 6rem;
+	}
+
+	.thank-you-text{
+		font-size: 3rem;
 	}
 }
 
@@ -228,15 +182,3 @@ body {
 		font-size: 2rem;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-

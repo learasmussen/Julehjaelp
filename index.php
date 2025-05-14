@@ -26,7 +26,7 @@ require "settings/init.php";
 <?php include("includes/navbar.php") ?>
 
 
-<div class="position-relative text-darkgreen img-fluid d-none d-md-block" style="height: 650px; background-image: url('images/juletræ.png'); background-size: cover; background-position: center;">
+<div class="position-relative text-darkgreen img-fluid d-none d-md-block" style="height: 650px; background-image: url('images/JHDeskBackground.png'); background-size: cover; background-position: center;">
     <div class="position-absolute top-50 start-50 translate-middle text-center">
         <h1 class="fw-bolder" style="font-size: 65px">FÅ ET ØNSKE TIL AT GÅ I OPFYLDELSE</h1>
     </div>
@@ -36,9 +36,6 @@ require "settings/init.php";
     <p>Velkommen til ønsketræet!</p>
     <a href="#" class="btn btn-yellow btn-lg fw-bold">Giv en gave</a>
 </div>
-
-
-
 
 
 <div class="container text-center">
