@@ -10,7 +10,7 @@ require "settings/init.php";
 <head>
     <meta charset="utf-8">
     
-    <title>Sigende titel</title>
+    <title>Ønsketræet</title>
     
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
@@ -32,8 +32,8 @@ require "settings/init.php";
     </div>
 </div>
 
-<div class="text-center mt-4 d-none d-md-block">
-    <p>Velkommen til Ønsketræet!</p>
+<div class="text-center d-none d-md-block">
+    <p class="instrument h2">Velkommen til Ønsketræet!</p>
     <a href="choose-gift.php" class="btn btn-yellow btn-lg fw-bold">Giv en gave</a>
 </div>
 

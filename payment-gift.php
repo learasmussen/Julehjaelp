@@ -20,11 +20,6 @@ require "settings/init.php";
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Typografi -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
@@ -37,9 +32,9 @@ require "settings/init.php";
 
 <!-- Overskrift, tekst og pris -->
 <div class="text-center mb-4 pt-5">
-    <h1 class="fw-bold largeFont">BETALING</h1>
+    <h1 class="fw-bold">BETALING</h1>
     <p>Alle transaktioner er sikre og krypterede.</p>
-    <div class="largeFont">200 kr.</div>
+    <p class="h1">200 kr.</p>
 </div>
 
 
@@ -104,7 +99,7 @@ require "settings/init.php";
 
             <!-- Knap med fuldfør betaling -->
             <div class="text-center">
-                <a class="btn btn-payment w-50 w-lg-50" href="thank-you.php">Fuldfør betaling</a>
+                <a class="btn btn-yellow fw-bold w-50 w-lg-50" href="thank-you.php">Fuldfør betaling</a>
             </div>
         </div>
     </div>
@@ -117,9 +112,9 @@ require "settings/init.php";
 
 <!-- Overskrift, tekst og pris -->
 <div class="container text-center mb-4 pt-5 d-md-none">
-    <h1 class="fw-bold largeFont">BETALING</h1>
-    <p>Alle transaktioner er sikre og krypterede.</p>
-    <div class="largeFont">200 kr.</div>
+    <h1 class="fw-bold roboto">BETALING</h1>
+    <p class="instrument">Alle transaktioner er sikre og krypterede.</p>
+    <p class="roboto fw-bold h1">200 kr.</p>
 </div>
 
 
@@ -182,7 +177,7 @@ require "settings/init.php";
 
             <!-- Knap med fuldfør betaling -->
             <div class="text-center">
-                <a class="btn btn-payment w-50 w-lg-50" href="thank-you.php">Fuldfør betaling</a>
+                <a class="btn btn-yellow fw-bold w-50 w-lg-50" href="thank-you.php">Fuldfør betaling</a>
             </div>
         </div>
     </div>

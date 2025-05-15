@@ -10,7 +10,7 @@ require "settings/init.php";
 <head>
     <meta charset="utf-8">
 
-    <title>Sigende titel</title>
+    <title>TAK</title>
 
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
@@ -28,7 +28,7 @@ require "settings/init.php";
 
 <div class="position-relative text-darkgreen img-fluid d-none d-md-block" style="height: 650px; background-image: url('images/JHDeskBackground.png'); background-size: cover; background-position: center;">
     <div class="position-absolute top-50 start-50 translate-middle text-center">
-        <h1 class="fw-bolder thank-you-header">TAK</h1>
+        <h1 class="fw-bold thank-you-header">TAK</h1>
         <p class="thank-you-text">Julemanden er på sagen!</p>
 
     </div>
