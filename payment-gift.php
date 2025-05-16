@@ -101,7 +101,8 @@ require "settings/init.php";
 
             <!-- Knap med fuldfør betaling -->
             <div class="text-center">
-                <a class="btn btn-yellow btn-lg fw-bold w-50 py-2" href="thank-you.php">Fuldfør betaling</a>
+                <a class="btn btn-yellow btn-lg fw-bold py-2 px-5 mt-5" href="thank-you.php">Fuldfør betaling</a>
+                <a class="btn btn-lg fw-bold text-decoration-underline mt-5" href="choose-gift.php">Gå tilbage</a>
             </div>
         </div>
     </div>
@@ -182,14 +183,14 @@ require "settings/init.php";
             <!-- Knap med fuldfør betaling -->
             <div class="text-center">
                 <a class="btn btn-yellow btn-lg fw-bold w-50" href="thank-you.php">Fuldfør betaling</a>
+                <br>
+                <a class="btn btn-lg fw-bold text-decoration-underline mt-3 text-black" href="choose-gift.php">Gå tilbage</a>
             </div>
         </div>
     </div>
 </div>
 
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
 
