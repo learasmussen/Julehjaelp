@@ -27,7 +27,6 @@ require "settings/init.php";
 
 
 <div class="container-fluid px-3 px-md-0 mx-md-0 mb-5 pb-5 mt-3 mt-lg-5">
-    <!-- Wrapper til de tre bokse -->
     <div class="d-flex flex-column flex-md-row mb-4 px-md-3 px-lg-5">
         <!-- Første grønne boks -->
         <div class="col-md-6 bg-darkgreen text-white p-4 rounded-5 flex-fill mb-3 mb-md-0 mx-md-2">
