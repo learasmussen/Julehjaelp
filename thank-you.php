@@ -34,9 +34,9 @@ require "settings/init.php";
 </div>
 
 <!-- Knapper -->
-<div class="text-center my-4 d-none d-md-flex justify-content-center align-items-center gap-5">
-    <a href="info.php" class="btn btn-yellow fw-bold d-flex align-items-center p-0 justify-content-center thank-you-button-text py-2 px-5">Information</a>
-    <a class="btn fw-bold text-decoration-underline thank-you-button-text" href="index.php">Tilbage til forsiden</a>
+<div class="text-center d-none d-md-flex justify-content-center align-items-center gap-4 pb-5">
+    <a href="info.php" class="btn btn-yellow btn-lg fw-bold py-2 px-5">Information</a>
+    <a class="btn btn-lg fw-bold text-decoration-underline" href="index.php">Tilbage til forsiden</a>
 </div>
 
 
