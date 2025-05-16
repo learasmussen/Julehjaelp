@@ -35,10 +35,10 @@ require "settings/init.php";
         mindeværdig jul til alle børn
     </p>
 
-    <!-- Doner & citat bokse side om side on tablet -->
+    <!-- Doner & citatbokse side om side på tablet -->
     <div class="row mb-5">
         <!-- Doner forklaring boks -->
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-5 mx-auto">
             <div class="bg-darkgreen text-white rounded-5 p-4 h-100 d-flex flex-column justify-content-between donate-boxes-text ">
                 <div>
                     <ul class="mb-4 ps-3 instrument">
@@ -46,9 +46,9 @@ require "settings/init.php";
                         <li class="mb-2">100 kr. svarer til en T-shirt eller et lille LEGO-sæt.</li>
                         <li class="mb-2">200 kr. svarer til en gave fra Ønsketræet.</li>
                     </ul>
-                    <p class="fw-bold mb-4 roboto">Hvert beløb tæller.</p>
+                    <p class="mb-4 roboto">Hvert beløb tæller.</p>
                 </div>
-                <a href="payment.php" class="btn btn-yellow fw-bold px-4 py-2 mt-auto roboto donate-boxes-button">Donér her</a>
+                <a href="payment.php" class="btn btn-yellow btn-lg fw-bold px-5 py-2 mt-auto mx-auto roboto donate-boxes-button">Donér her</a>
             </div>
         </div>
 
@@ -63,7 +63,7 @@ require "settings/init.php";
         </div>
 
         <!-- Citat-boks -->
-        <div class="col-12 col-md-6 m-0">
+        <div class="col-12 col-md-5 mx-auto">
             <div class="bg-darkgreen text-white rounded-5 p-4 h-100 d-flex flex-column justify-content-between donate-boxes-text">
                 <div>
                     <p class="instrument mb-3">
@@ -72,9 +72,9 @@ require "settings/init.php";
                         til hver af mine skønne drenge. Jeres julehjælp er det, der gør det muligt at holde jul
                         for mine drenge.”
                     </p>
-                    <p class="mb-4 roboto fw-bold">– Anonym mor</p>
+                    <p class="mb-4 roboto">– Anonym mor</p>
                 </div>
-                <a href="payment.php" class="btn btn-yellow fw-bold px-4 py-2 roboto donate-boxes-button">Donér her</a>
+                <a href="payment.php" class="btn btn-yellow btn-lg fw-bold px-5 py-2 mt-auto mx-auto roboto donate-boxes-button">Donér her</a>
             </div>
         </div>
     </div>
@@ -89,7 +89,6 @@ require "settings/init.php";
         </div>
     </div>
 </div>
-
 
 <br>
 <br>
