@@ -20,15 +20,16 @@ require "settings/init.php";
 
 <?php include("includes/navbar.php") ?>
 
-<div class="container mb-5 mt-3 px-4 px-md-0">
+<div class="container mb-5 mt-5 px-4 px-md-0">
     <!-- Overskrift -->
     <h2 class="text-darkgreen fw-bold text-center mb-3">VÆLG EN GAVE</h2>
 
     <!-- Intro tekst -->
-    <p class="text-center mb-4">
+    <p class="text-center instrument h4">
         Tak for dit bidrag til Julehjælp.
-        Vælg og bekræft din gave herunder
+        Vælg hvilken gave du vil give herunder.
     </p>
+</div>
 
     <div class="container g-2 mt-5">
         <div class="row">
@@ -39,10 +40,10 @@ require "settings/init.php";
             foreach($wishes as $wish) {
                 ?>
                 <div class="col-12 col-md-4 mb-5">
-                    <div class="bg-darkgreen text-white rounded-5 p-4 h-100 d-flex flex-column justify-content-between">
+                    <div class="bg-darkgreen text-white rounded-5 p-4 d-flex flex-column">
                         <div>
-                            <h3 class="mb-2 text-center"><?php echo htmlspecialchars($wish->wishName); ?> <?php echo (int)$wish->wishAge; ?> år</h3>
-                            <h5 class="mb-4 text-center">Ønsker sig: <?php echo htmlspecialchars($wish->wishWish); ?></h5>
+                            <h3 class="mb-2 text-center instrument"><?php echo htmlspecialchars($wish->wishName); ?> <?php echo (int)$wish->wishAge; ?> år</h3>
+                            <h5 class="mb-4 text-center instrument">Ønsker sig: <?php echo htmlspecialchars($wish->wishWish); ?></h5>
                         </div>
                         <a href="#" class="btn btn-yellow fw-bold px-4 py-2 mt-auto">Vælg gave</a>
                     </div>

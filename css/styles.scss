@@ -26,49 +26,62 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // 5. Du kan lave styling her...
 
+/*fonts*/
 .roboto {
 	font-family: 'Roboto Condensed', sans-serif;
 }
-
 .instrument {
 	font-family: 'Instrument Serif', serif;
 }
 
+
+/*donate page*/
+.already-donated-text{
+	font-size: 1.25rem;
+}
+.counter-text{
+	font-size: 1.5rem;
+}
+
+
+/*thank-you page*/
 .thank-you-header{
 	font-size: 4rem;
 }
-
 .thank-you-text{
 	font-size: 1.5rem;
 }
 
+
+/*info page*/
 .info-header-text{
 	font-size: 2rem;
 }
 
+
+/*navbar desktop*/
 .wishingtree-text-navbar{
 	font-size: 3rem;
 }
 
+
+/*navbar mobil*/
 .bottom-nav {
 	bottom: 0;
 	width: 100%;
 	padding: 20px 0;
 	z-index: 10;
 }
-
 .nav-wrapper {
 	position: relative;
 	width: 260px;
 }
-
 .nav-icons {
 	display: flex;
 	justify-content: space-between;
 	position: relative;
 	z-index: 2;
 }
-
 .nav-icon {
 	color: white;
 	font-size: 1.6rem;
@@ -79,7 +92,6 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	align-items: center;
 	cursor: pointer;
 }
-
 .nav-highlight {
 	position: absolute;
 	width: 64px;
@@ -94,7 +106,6 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	align-items: center;
 	z-index: 1;
 }
-
 .nav-highlight-inner {
 	width: 50px;
 	height: 50px;
@@ -110,30 +121,53 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @media only screen and (min-width: 768px){
 
+
+	/*donate page*/
+	.donate-an-amount-header{
+		font-size: 2.5rem;
+	}
+	.donate-an-amount-text{
+		font-size: 1.25rem;
+	}
+	.donate-boxes-text{
+		font-size: 1.25rem;
+	}
+	.donate-boxes-button{
+		font-size: 1.25rem;
+	}
+	.already-donated-text{
+		font-size: 1.5rem;
+	}
+	.counter-text{
+		font-size: 2.5rem;
+	}
+
+
+	/*info page*/
+	.info-header-text{
+		font-size: 1.5rem;
+	}
+	.info-middle-text{
+		font-size: 1.25rem;
+	}
+	.info-list-items{
+		font-size: 1rem;
+	}
 	.doner-et-beløb-knap{
 		font-size: 1.25rem;
 	}
 
-	.info-header-text{
-		font-size: 1.5rem;
-	}
 
-	.info-middle-text{
-		font-size: 1rem;
-	}
-
-	.info-list-items{
-		font-size: 14px;
-	}
-
+	/*navbar desktop*/
 	.nav-link-text{
 		font-size: 13px;
 	}
 
+
+	/*thank-you page*/
 	.thank-you-header{
 		font-size: 5rem;
 	}
-
 	.thank-you-text{
 		font-size: 2rem;
 	}
@@ -141,57 +175,95 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 
 @media only screen and (min-width: 1024px){
+
+	/*navbar desktop*/
 	.nav-link-text{
 		font-size: 1.25rem;
 	}
 
+
+	/*info page*/
 	.info-header-text{
 		font-size: 2rem;
 	}
-
 	.info-middle-text{
 		font-size: 1.5rem;
 	}
-
 	.info-list-items{
 		font-size: 1.25rem;
 	}
-
 	.doner-et-beløb-knap{
 		font-size: 1.5rem;
 	}
 
+
+	/*donate page*/
+	.donate-an-amount-header{
+		font-size: 3rem;
+	}
+	.donate-an-amount-text{
+		font-size: 1.75rem;
+	}
+	.donate-boxes-text{
+		font-size: 1.5rem;
+	}
+	.donate-boxes-button{
+		font-size: 1.5rem;
+	}
+
+
+	/*thank-you page*/
 	.thank-you-header{
 		font-size: 6rem;
 	}
-
 	.thank-you-text{
 		font-size: 3rem;
 	}
 }
 
 @media only screen and (min-width: 1440px){
+
+	/*navbar desktop*/
 	.wishingtree-text-navbar{
 		font-size: 4rem;
 	}
-
 	.nav-link-text{
 		font-size: 1.5rem;
 	}
 
+
+	/*info page*/
 	.info-header-text{
 		font-size: 2.5rem;
 	}
-
 	.info-middle-text{
 		font-size: 2rem;
 	}
-
 	.info-list-items{
 		font-size: 1.75rem;
 	}
-
 	.doner-et-beløb-knap{
 		font-size: 2rem;
+	}
+
+
+	/*donate page*/
+	.donate-an-amount-header{
+		font-size: 3.5rem;
+	}
+	.donate-an-amount-text{
+		font-size: 2.25rem;
+	}
+	.donate-boxes-text{
+		font-size: 1.75rem;
+	}
+	.donate-boxes-button{
+		font-size: 1.75rem;
+	}
+	.already-donated-text{
+		font-size: 2rem;
+	}
+	.counter-text{
+		font-size: 3.5rem;
 	}
 }
