@@ -32,12 +32,12 @@ require "settings/init.php";
 
     <!-- Overskrift og tekstfelt -->
     <div class="container text-center mb-4 pt-5">
-        <h1 class="fw-bold roboto">BETALING</h1>
-        <p class="instrument">Alle transaktioner er sikre og krypterede.</p>
+        <h1 class="fw-bold roboto text-darkgreen wishingtree-text-navbar">BETALING</h1>
+        <p class="instrument h5">Alle transaktioner er sikre og krypterede.</p>
 
         <div class="row d-flex flex-column justify-content-center align-items-center">
             <div class="col-12 d-flex flex-column justify-content-center align-items-center pt-4 px-lg-5">
-                <label for="customAmount" class="form-label">Indtast et valgfrit beløb:</label>
+                <label for="customAmount" class="form-label instrument h5">Indtast et valgfrit beløb:</label>
                 <input type="number" id="customAmount" class=" form-control w-25 border-black rounded-0 py-3">
             </div>
         </div>
@@ -104,7 +104,7 @@ require "settings/init.php";
 
                 <!-- Knap med fuldfør betaling -->
                 <div class="text-center">
-                    <a class="btn btn-yellow fw-bold w-50 w-lg-50" href="thank-you.php">Fuldfør betaling</a>
+                    <a class="btn btn-yellow py-3 fw-bold w-50" href="thank-you.php">Fuldfør betaling</a>
                 </div>
             </div>
         </div>
@@ -116,7 +116,7 @@ require "settings/init.php";
 
 <!-- Overskrift og tekstfelt -->
 <div class="container text-center mb-4 pt-5 d-md-none">
-    <h1 class="fw-bold largeFont">BETALING</h1>
+    <h1 class="fw-bold">BETALING</h1>
     <p>Alle transaktioner er sikre og krypterede.</p>
 
     <div class="row d-flex flex-column justify-content-center align-items-center">
