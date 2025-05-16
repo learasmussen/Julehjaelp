@@ -30,13 +30,9 @@ require "settings/init.php";
     <div class="position-absolute top-50 start-50 translate-middle text-center">
         <h1 class="fw-bold thank-you-header roboto">TAK</h1>
         <p class="thank-you-text instrument text-black">Julemanden er på sagen!</p>
+        <a href="info.php" class="btn btn-yellow btn-lg fw-bold py-2 px-5 mt-5">Information</a>
+        <a class="btn btn-lg fw-bold text-decoration-underline mt-5" href="index.php">Tilbage til forsiden</a>
     </div>
-</div>
-
-<!-- Knapper -->
-<div class="text-center d-none d-md-flex justify-content-center align-items-center gap-4 pb-5">
-    <a href="info.php" class="btn btn-yellow btn-lg fw-bold py-2 px-5">Information</a>
-    <a class="btn btn-lg fw-bold text-decoration-underline" href="index.php">Tilbage til forsiden</a>
 </div>
 
 
