@@ -30,8 +30,8 @@ require "settings/init.php";
 <!-- Baggrund og overskrift -->
 <div class="position-relative text-darkgreen img-fluid d-none d-md-block" style="height: 650px; background-image: url('images/JHDeskBackground.png'); background-size: cover; background-position: center;">
     <div class="position-absolute top-50 start-50 translate-middle text-center">
-        <h1 class="fw-bold" style="font-size: 70px">FÅ ET ØNSKE TIL AT <br> GÅ I OPFYLDELSE</h1>
-        <p class="instrument h3 py-3 mt-5">Velkommen til Ønsketræet!</p>
+        <h1 class="fw-bold" style="font-size: 70px">FÅ ET ØNSKE TIL AT GÅ I OPFYLDELSE</h1>
+        <p class="instrument h3 py-3 mt-5 text-black">Velkommen til Ønsketræet!</p>
         <a href="choose-gift.php" class="btn btn-yellow btn-lg fw-bold px-5 py-2">Giv en gave</a>
     </div>
 </div>

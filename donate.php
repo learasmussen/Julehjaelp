@@ -10,7 +10,7 @@ require "settings/init.php";
 <head>
     <meta charset="utf-8">
 
-    <title>Sigende titel</title>
+    <title>Donér et beløb</title>
 
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
@@ -25,12 +25,12 @@ require "settings/init.php";
 
 <?php include("includes/navbar.php") ?>
 
-<div class="container mb-5 mt-3 px-4 px-md-0">
+<div class="container mb-5 px-4 px-md-0">
     <!-- Overskrift -->
-    <h2 class="text-darkgreen fw-bold text-center mb-3 roboto donate-an-amount-header">DONÉR ET BELØB</h2>
+    <h2 class="text-darkgreen fw-bold text-center pt-5 pb-3 roboto wishingtree-text-navbar">DONÉR ET BELØB</h2>
 
     <!-- Intro tekst -->
-    <p class="text-center mb-4 mx-md-5 instrument donate-an-amount-text">
+    <p class="text-center h4 mb-5 mx-md-5 instrument donate-an-amount-text">
         Her kan du donére et valgfrit beløb til Julehjælpen og være med til at give en
         mindeværdig jul til alle børn
     </p>

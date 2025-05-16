@@ -10,7 +10,7 @@ require "settings/init.php";
 <head>
     <meta charset="utf-8">
 
-    <title>Sigende titel</title>
+    <title>Information</title>
 
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
@@ -25,8 +25,12 @@ require "settings/init.php";
 
 <?php include("includes/navbar.php") ?>
 
+<div class="container-fluid px-3 px-md-0 mx-md-0">
 
-<div class="container-fluid px-3 px-md-0 mx-md-0 mb-5 pb-5 mt-3 mt-lg-5">
+    <!-- Overskrift og tekst -->
+    <h2 class="text-darkgreen fw-bold text-center pt-5 pb-3 roboto wishingtree-text-navbar">INFORMATION</h2>
+    <p class="text-center h4 mb-5 mx-md-5 instrument donate-an-amount-text">Her kan du læse information om Julehjælp og Ønsketræet</p>
+
     <div class="d-flex flex-column flex-md-row mb-4 px-md-3 px-lg-5">
         <!-- Første grønne boks -->
         <div class="col-md-6 bg-darkgreen text-white p-4 rounded-5 flex-fill mb-3 mb-md-0 mx-md-2">
@@ -51,20 +55,17 @@ require "settings/init.php";
             <ul class="mb-0 info-list-items pb-3 pt-4 instrument px-3">
                 <li class="pb-3">Hvert ønske har en værdi på maks. 200 kr.</li>
                 <li class="pb-3">Du skal blot betale for ønsket, så klarer vi resten – super nemt og hurtigt.</li>
+                <li class="pb-3">Giv en gave og få et barns juleønske til at gå i opfyldelse.</li>
             </ul>
-            <p class="mb-0 info-list-items py-md-2 instrument">Giv en gave og få et barns juleønske til at gå i opfyldelse.</p>
         </div>
     </div>
 
 
     <!-- Gul knap: Desktop -->
-    <div class="text-center d-none d-md-flex justify-content-center mt-lg-5">
-        <a href="payment.php" class="btn btn-yellow fw-bold px-4 py-2 doner-et-beløb-knap roboto">Donér et valgfrit beløb</a>
+    <div class="text-center d-none d-md-flex justify-content-center mt-lg-5 pb-5">
+        <a href="payment.php" class="btn btn-yellow btn-lg fw-bold px-4 py-2 roboto">Donér et valgfrit beløb</a>
     </div>
 </div>
-
-
-
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js.js"></script>
