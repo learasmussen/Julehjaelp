@@ -25,10 +25,7 @@ require "settings/init.php";
     <h2 class="text-darkgreen fw-bold text-center roboto pt-5 pb-3 wishingtree-text-navbar">VÆLG EN GAVE</h2>
 
     <!-- Intro tekst -->
-    <p class="text-center instrument h4">
-        Tak for dit bidrag til Julehjælp.
-        Vælg hvilken gave du vil give herunder.
-    </p>
+    <p class="text-center instrument h4">Tak for dit bidrag til Julehjælp. Vælg hvilken gave du vil give herunder.</p>
 </div>
 
     <div class="container g-2 mt-5">
