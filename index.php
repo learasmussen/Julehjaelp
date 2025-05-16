@@ -35,7 +35,7 @@ require "settings/init.php";
 </div>
 
 <!-- Tekst og knap -->
-<div class="text-center d-none d-md-block">
+<div class="text-center d-none d-md-block pb-5">
     <p class="instrument h3 py-3">Velkommen til Ønsketræet!</p>
     <a href="choose-gift.php" class="btn btn-yellow btn-lg fw-bold px-5 py-2">Giv en gave</a>
 </div>
