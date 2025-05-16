@@ -29,6 +29,7 @@ require "settings/init.php";
         Tak for dit bidrag til Julehjælp.
         Vælg hvilken gave du vil give herunder.
     </p>
+</div>
 
     <div class="container g-2 mt-5">
         <div class="row">
