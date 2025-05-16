@@ -37,7 +37,6 @@ require "settings/init.php";
 
 
 <!-- Mobil version -->
-
 <div class="container text-center">
     <div class= "text-darkgreen text-center fw-bold pt-5 d-block d-md-none thank-you-header roboto">TAK</div>
 </div>
