@@ -10,7 +10,7 @@ require "settings/init.php";
 <head>
     <meta charset="utf-8">
     
-    <title>Sigende titel</title>
+    <title>Ønsketræet</title>
     
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
@@ -28,12 +28,12 @@ require "settings/init.php";
 
 <div class="position-relative text-darkgreen img-fluid d-none d-md-block" style="height: 650px; background-image: url('images/JHDeskBackground.png'); background-size: cover; background-position: center;">
     <div class="position-absolute top-50 start-50 translate-middle text-center">
-        <h1 class="fw-bolder" style="font-size: 65px">FÅ ET ØNSKE TIL AT GÅ I OPFYLDELSE</h1>
+        <h1 class="fw-bolder text-stroke" style="font-size: 65px">FÅ ET ØNSKE TIL AT GÅ I OPFYLDELSE</h1>
     </div>
 </div>
 
-<div class="text-center mt-4 d-none d-md-block">
-    <p>Velkommen til Ønsketræet!</p>
+<div class="text-center d-none d-md-block">
+    <p class="instrument h2">Velkommen til Ønsketræet!</p>
     <a href="choose-gift.php" class="btn btn-yellow btn-lg fw-bold">Giv en gave</a>
 </div>
 
