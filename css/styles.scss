@@ -26,10 +26,10 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // 5. Du kan lave styling her...
 
+/*fonts*/
 .roboto {
 	font-family: 'Roboto Condensed', sans-serif;
 }
-
 .instrument {
 	font-family: 'Instrument Serif', serif;
 }
@@ -44,43 +44,44 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 
 
-
-
+/*thank-you page*/
 .thank-you-header{
 	font-size: 4rem;
 }
-
 .thank-you-text{
 	font-size: 1.5rem;
 }
 
+
+/*info page*/
 .info-header-text{
 	font-size: 2rem;
 }
 
+
+/*navbar desktop*/
 .wishingtree-text-navbar{
 	font-size: 3rem;
 }
 
+
+/*navbar mobil*/
 .bottom-nav {
 	bottom: 0;
 	width: 100%;
 	padding: 20px 0;
 	z-index: 10;
 }
-
 .nav-wrapper {
 	position: relative;
 	width: 260px;
 }
-
 .nav-icons {
 	display: flex;
 	justify-content: space-between;
 	position: relative;
 	z-index: 2;
 }
-
 .nav-icon {
 	color: white;
 	font-size: 1.6rem;
@@ -91,7 +92,6 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	align-items: center;
 	cursor: pointer;
 }
-
 .nav-highlight {
 	position: absolute;
 	width: 64px;
@@ -106,7 +106,6 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	align-items: center;
 	z-index: 1;
 }
-
 .nav-highlight-inner {
 	width: 50px;
 	height: 50px;
@@ -159,15 +158,16 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	}
 
 
-
+	/*navbar desktop*/
 	.nav-link-text{
 		font-size: 13px;
 	}
 
+
+	/*thank-you page*/
 	.thank-you-header{
 		font-size: 5rem;
 	}
-
 	.thank-you-text{
 		font-size: 2rem;
 	}
@@ -175,9 +175,12 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 
 @media only screen and (min-width: 1024px){
+
+	/*navbar desktop*/
 	.nav-link-text{
 		font-size: 1.25rem;
 	}
+
 
 	/*info page*/
 	.info-header-text{
@@ -209,21 +212,21 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	}
 
 
-
+	/*thank-you page*/
 	.thank-you-header{
 		font-size: 6rem;
 	}
-
 	.thank-you-text{
 		font-size: 3rem;
 	}
 }
 
 @media only screen and (min-width: 1440px){
+
+	/*navbar desktop*/
 	.wishingtree-text-navbar{
 		font-size: 4rem;
 	}
-
 	.nav-link-text{
 		font-size: 1.5rem;
 	}
