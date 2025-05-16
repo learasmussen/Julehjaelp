@@ -34,6 +34,18 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-family: 'Instrument Serif', serif;
 }
 
+
+/*donate page*/
+.already-donated-text{
+	font-size: 1.25rem;
+}
+.counter-text{
+	font-size: 1.5rem;
+}
+
+
+
+
 .thank-you-header{
 	font-size: 4rem;
 }
@@ -110,21 +122,43 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @media only screen and (min-width: 768px){
 
+
+	/*donate page*/
+	.donate-an-amount-header{
+		font-size: 2.5rem;
+	}
+	.donate-an-amount-text{
+		font-size: 1.25rem;
+	}
+	.donate-boxes-text{
+		font-size: 1.25rem;
+	}
+	.donate-boxes-button{
+		font-size: 1.25rem;
+	}
+	.already-donated-text{
+		font-size: 1.5rem;
+	}
+	.counter-text{
+		font-size: 2.5rem;
+	}
+
+
+	/*info page*/
+	.info-header-text{
+		font-size: 1.5rem;
+	}
+	.info-middle-text{
+		font-size: 1.25rem;
+	}
+	.info-list-items{
+		font-size: 1rem;
+	}
 	.doner-et-beløb-knap{
 		font-size: 1.25rem;
 	}
 
-	.info-header-text{
-		font-size: 1.5rem;
-	}
 
-	.info-middle-text{
-		font-size: 1rem;
-	}
-
-	.info-list-items{
-		font-size: 14px;
-	}
 
 	.nav-link-text{
 		font-size: 13px;
@@ -145,21 +179,36 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 		font-size: 1.25rem;
 	}
 
+	/*info page*/
 	.info-header-text{
 		font-size: 2rem;
 	}
-
 	.info-middle-text{
 		font-size: 1.5rem;
 	}
-
 	.info-list-items{
 		font-size: 1.25rem;
 	}
-
 	.doner-et-beløb-knap{
 		font-size: 1.5rem;
 	}
+
+
+	/*donate page*/
+	.donate-an-amount-header{
+		font-size: 3rem;
+	}
+	.donate-an-amount-text{
+		font-size: 1.75rem;
+	}
+	.donate-boxes-text{
+		font-size: 1.5rem;
+	}
+	.donate-boxes-button{
+		font-size: 1.5rem;
+	}
+
+
 
 	.thank-you-header{
 		font-size: 6rem;
@@ -179,19 +228,39 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 		font-size: 1.5rem;
 	}
 
+
+	/*info page*/
 	.info-header-text{
 		font-size: 2.5rem;
 	}
-
 	.info-middle-text{
 		font-size: 2rem;
 	}
-
 	.info-list-items{
 		font-size: 1.75rem;
 	}
-
 	.doner-et-beløb-knap{
 		font-size: 2rem;
+	}
+
+
+	/*donate page*/
+	.donate-an-amount-header{
+		font-size: 3.5rem;
+	}
+	.donate-an-amount-text{
+		font-size: 2.25rem;
+	}
+	.donate-boxes-text{
+		font-size: 1.75rem;
+	}
+	.donate-boxes-button{
+		font-size: 1.75rem;
+	}
+	.already-donated-text{
+		font-size: 2rem;
+	}
+	.counter-text{
+		font-size: 3.5rem;
 	}
 }

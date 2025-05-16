@@ -27,10 +27,10 @@ require "settings/init.php";
 
 <div class="container mb-5 mt-3 px-4 px-md-0">
     <!-- Overskrift -->
-    <h2 class="text-darkgreen fw-bold text-center mb-3">DONÉR ET BELØB</h2>
+    <h2 class="text-darkgreen fw-bold text-center mb-3 roboto donate-an-amount-header">DONÉR ET BELØB</h2>
 
     <!-- Intro tekst -->
-    <p class="text-center mb-4">
+    <p class="text-center mb-4 mx-md-5 instrument donate-an-amount-text">
         Her kan du donére et valgfrit beløb til Julehjælpen og være med til at give en
         mindeværdig jul til alle børn
     </p>
@@ -39,52 +39,52 @@ require "settings/init.php";
     <div class="row mb-5">
         <!-- Doner forklaring boks -->
         <div class="col-12 col-md-6">
-            <div class="bg-darkgreen text-white rounded-5 p-4 h-100 d-flex flex-column justify-content-between">
+            <div class="bg-darkgreen text-white rounded-5 p-4 h-100 d-flex flex-column justify-content-between donate-boxes-text ">
                 <div>
-                    <ul class="mb-4 ps-3">
+                    <ul class="mb-4 ps-3 instrument">
                         <li class="mb-2">50 kr. svarer til en malebog eller et par sokker.</li>
-                        <li class="mb-2">100 kr. svarer til en t-shirt eller et lille LEGO-sæt.</li>
+                        <li class="mb-2">100 kr. svarer til en T-shirt eller et lille LEGO-sæt.</li>
                         <li class="mb-2">200 kr. svarer til en gave fra Ønsketræet.</li>
                     </ul>
-                    <p class="fw-bold mb-4">Hvert beløb tæller.</p>
+                    <p class="fw-bold mb-4 roboto">Hvert beløb tæller.</p>
                 </div>
-                <a href="payment.php" class="btn btn-yellow fw-bold px-4 py-2 mt-auto">Donér her</a>
+                <a href="payment.php" class="btn btn-yellow fw-bold px-4 py-2 mt-auto roboto donate-boxes-button">Donér her</a>
             </div>
         </div>
 
         <!-- Indsamlet beløb -->
         <div class="text-center my-3 d-md-none">
-            <p class="fw-medium mb-1">Allerede indsamlet:</p>
+            <p class="fw-medium mb-1 roboto already-donated-text">Allerede indsamlet:</p>
             <div class="d-flex align-items-center justify-content-center">
                 <div class="border-top border-orange border-2 w-25 me-3"></div>
-                <h2 class="fw-bold display-6 mb-0">8.357.394 <span class="fw-normal">kr.</span></h2>
+                <p class="fw-bold counter-text mb-0 instrument">8.357.394 kr.</p>
                 <div class="border-top border-orange border-2 w-25 ms-3"></div>
             </div>
         </div>
 
         <!-- Citat-boks -->
         <div class="col-12 col-md-6 m-0">
-            <div class="bg-darkgreen text-white rounded-5 p-4 h-100 d-flex flex-column justify-content-between">
+            <div class="bg-darkgreen text-white rounded-5 p-4 h-100 d-flex flex-column justify-content-between donate-boxes-text">
                 <div>
-                    <p class="fst-italic mb-3">
+                    <p class="instrument mb-3">
                         ”Jeres hjælp til vores lille familie, mine tre sønner og mig, betyder, at vi kan få en
                         julemiddag med alt det, der hører til, et lille juletræ, og der er en pakke under træet
                         til hver af mine skønne drenge. Jeres julehjælp er det, der gør det muligt at holde jul
                         for mine drenge.”
                     </p>
-                    <p class="mb-4">– Anonym mor</p>
+                    <p class="mb-4 roboto fw-bold">– Anonym mor</p>
                 </div>
-                <a href="payment.php" class="btn btn-yellow fw-bold px-4 py-2">Donér her</a>
+                <a href="payment.php" class="btn btn-yellow fw-bold px-4 py-2 roboto donate-boxes-button">Donér her</a>
             </div>
         </div>
     </div>
 
     <!-- Indsamlet beløb -->
     <div class="text-center my-3 d-none d-md-block">
-        <p class="fw-medium mb-1">Allerede indsamlet:</p>
+        <p class="fw-medium mb-1 roboto already-donated-text">Allerede indsamlet:</p>
         <div class="d-flex align-items-center justify-content-center">
             <div class="border-top border-orange border-2 w-25 me-3"></div>
-            <h2 class="fw-bold display-6 mb-0">8.357.394 <span class="fw-normal">kr.</span></h2>
+            <p class="fw-bold counter-text mb-0 instrument">8.357.394 kr.</p>
             <div class="border-top border-orange border-2 w-25 ms-3"></div>
         </div>
     </div>
