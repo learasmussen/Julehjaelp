@@ -34,6 +34,15 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-family: 'Instrument Serif', serif;
 }
 
+.gift-card {
+	background-image: url('../images/slojfefinal.png'); /* adjust if your CSS file is in /css/ folder */
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 400px;
+	position: relative;
+}
+
 
 /*donate page*/
 .already-donated-text{
