@@ -6,7 +6,7 @@ require "settings/init.php";
 <head>
     <meta charset="utf-8">
 
-    <title>Sigende titel</title>
+    <title>Vælg en gave</title>
 
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
@@ -20,11 +20,14 @@ require "settings/init.php";
 
 <?php include("includes/navbar.php") ?>
 
-<div class="container my-5 px-4 px-md-0">
-    <h2 class="text-darkgreen fw-bold text-center mb-3">VÆLG EN GAVE</h2>
-    <p class="text-center instrument h4">
-        Vælg hvilken gave du vil give herunder.
-    </p>
+
+<div class="container mb-5 px-4 px-md-0">
+    <!-- Overskrift -->
+    <h2 class="text-darkgreen fw-bold text-center roboto pt-5 pb-3 wishingtree-text-navbar">VÆLG EN GAVE</h2>
+
+    <!-- Intro tekst -->
+    <p class="text-center instrument h4">Vælg hvilken gave du vil give herunder.</p>
+
 </div>
 
 <div class="container g-2 mt-5 mb-5">
