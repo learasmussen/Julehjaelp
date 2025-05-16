@@ -20,17 +20,20 @@ require "settings/init.php";
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
+    <!-- Typografi -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-
 </head>
 
-<body style="background: white url('images/JHDeskBackground.png') center / contain no-repeat; min-height: 100vh;">
+<body>
 
 <?php include("includes/navbar.php") ?>
+
+<!-- Baggrundsbillede -->
+<div class="position-relative img-fluid d-none d-md-block"
+     style="height: 650px; background-image: url('images/JHDeskBackground.png'); background-size: cover; background-position: center;">
 
 <!-- Overskrift, tekst og pris -->
 <div class="text-center mb-4 pt-5">
@@ -101,9 +104,86 @@ require "settings/init.php";
 
             <!-- Knap med fuldfør betaling -->
             <div class="text-center">
-                <button class="btn btn-payment btn-lg w-50 w-lg-50">Fuldfør betaling</button>
+                <a class="btn btn-payment w-50 w-lg-50" href="thank-you.php">Fuldfør betaling</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!-- Mobil version -->
+
+
+<!-- Overskrift, tekst og pris -->
+<div class="container text-center mb-4 pt-5 d-md-none">
+    <h1 class="fw-bold largeFont">BETALING</h1>
+    <p>Alle transaktioner er sikre og krypterede.</p>
+    <div class="largeFont">200 kr.</div>
+</div>
+
+
+<div class="container d-md-none">
+    <div class="row justify-content-center">
+        <div class="col-12 col-lg-6">
+
+            <!-- Accordion -->
+            <div class="accordion pt-3 pb-5" id="paymentAccordion">
+                <!-- Mobilepay -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingMobilePay">
+                        <button class="accordion-button" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseMobilePay"
+                                aria-expanded="true" aria-controls="collapseMobilePay">
+                            <div class="d-flex justify-content-between align-items-center w-100">
+                                <div class="d-flex align-items-center gap-2">
+                                    <input type="radio" name="paymentMethod" id="mobilepayOption" class="form-check-input" style="width: 1.5em; height: 1.5em;">
+                                    <label for="mobilepayOption" class="mb-0 fw-normal">Mobilepay</label>
+                                </div>
+                                <img src="images/MobilepayLogo.png" alt="MobilePay logo" height="30">
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="collapseMobilePay" class="accordion-collapse collapse show" aria-labelledby="headingMobilePay"
+                         data-bs-parent="#paymentAccordion">
+                        <div class="accordion-body bg-light">
+                            <p class="text-muted small">Når du har klikket på “Fuldfør betaling”, vil du blive videresendt til Mobilepay, for at gennemføre dit køb sikkert.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Betalingskort -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingCard">
+                        <button class="accordion-button collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseCard"
+                                aria-expanded="false" aria-controls="collapseCard">
+                            <div class="d-flex justify-content-between align-items-center w-100">
+                                <div class="d-flex align-items-center gap-2">
+                                    <input type="radio" name="paymentMethod" id="cardOption" class="form-check-input" style="width: 1.5em; height: 1.5em;">
+                                    <label for="cardOption" class="mb-0 fw-normal">Betalingskort</label>
+                                </div>
+                                <div class="d-flex align-items-center gap-2">
+                                    <img src="images/VisaLogo.png" alt="VISA logo" height="30">
+                                    <img src="images/MasterLogo.png" alt="Mastercard logo" height="30">
+                                    <img src="images/DKLogo.png" alt="Dankort logo" height="30">
+                                </div>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="collapseCard" class="accordion-collapse collapse" aria-labelledby="headingCard"
+                         data-bs-parent="#paymentAccordion">
+                        <div class="accordion-body bg-light">
+                            <p class="text-muted small">Indtast dine kortoplysninger for at gennemføre købet.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
+            <!-- Knap med fuldfør betaling -->
+            <div class="text-center">
+                <a class="btn btn-payment w-50 w-lg-50" href="thank-you.php">Fuldfør betaling</a>
+            </div>
         </div>
     </div>
 </div>
