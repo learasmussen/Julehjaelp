@@ -29,9 +29,9 @@
 
         <!-- Ikoner -->
         <div class="nav-icons">
-            <a href="donate.php" class="nav-icon" data-icon="fa-dollar-sign"><i class="fa-solid fa-dollar-sign"></i></a>
-            <a href="index.php" class="nav-icon" data-icon="fa-tree"><i class="fa-solid fa-tree"></i></a>
-            <a href="info.php" class="nav-icon" data-icon="fa-circle-info"><i class="fa-solid fa-circle-info"></i></a>
+            <a href="donate.php" class="nav-icon text-decoration-none" data-icon="fa-dollar-sign"><i class="fa-solid fa-dollar-sign"></i></a>
+            <a href="index.php" class="nav-icon text-decoration-none" data-icon="fa-tree"><i class="fa-solid fa-tree"></i></a>
+            <a href="info.php" class="nav-icon text-decoration-none" data-icon="fa-circle-info"><i class="fa-solid fa-circle-info"></i></a>
         </div>
     </div>
 </div>
