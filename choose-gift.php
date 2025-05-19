@@ -33,22 +33,22 @@ require "settings/init.php";
 <div class="container g-2 mt-5 mb-5">
     <div class="row">
         <?php
-        $sql = "SELECT * FROM wishes ORDER BY wishId ASC LIMIT 3";
+        $sql = "SELECT * FROM wishes WHERE wishPaid IS NULL ORDER BY wishId ASC LIMIT 3";
         $wishes = $db->sql($sql);
 
         foreach ($wishes as $wish): ?>
             <div class="col-12 col-md-4 mb-5">
-                <div class="card gift-card text-white text-center h-100 border-0 rounded-5 d-flex flex-column justify-content-between">
-                    <div class="card-body d-flex flex-column justify-content-between p-4">
+                <div class="gift-card text-white text-center d-flex">
+                    <div class="card-body d-flex flex-column p-4">
                         <div class="mt-auto">
-                            <h2 class="card-title mb-2 instrument">
-                                <?= htmlspecialchars($wish->wishName) ?> <?= (int)$wish->wishAge ?> år
+                            <h2 class="mb-2 instrument">
+                                <?php echo $wish->wishName; ?> <?php echo $wish->wishAge; ?> år
                             </h2>
-                            <h4 class="card-subtitle mb-4 instrument">
-                                Ønsker sig: <?= htmlspecialchars($wish->wishWish) ?>
+                            <h4 class="mb-4 instrument">
+                                Ønsker sig: <?php echo $wish->wishWish; ?>
                             </h4>
                         </div>
-                        <a href="/payment-gift.php" class="btn btn-yellow fw-bold px-4 py-2 mt-4 w-75 mx-auto">VÆLG GAVE</a>
+                        <a href="/payment-gift.php?wishId=<?php echo $wish->wishId; ?>" class="btn btn-yellow fw-bold px-4 py-2 mt-4 w-75 mx-auto">Vælg gave</a>
                     </div>
                 </div>
             </div>

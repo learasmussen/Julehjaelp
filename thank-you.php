@@ -4,6 +4,23 @@
  */
 
 require "settings/init.php";
+
+if (!empty($_POST)) {
+    $wishId = $_POST["wishId"];
+
+    // SQL to insert into 'wishes' table
+    $sql = "UPDATE wishes SET wishPaid = :wishPaid WHERE wishId = :wishId";
+
+
+    // Data binding
+    $bind = [
+        ":wishId" => $wishId,
+        ":wishPaid" => date("Y-m-d H:i:s")
+    ];
+
+    // Execute query
+    $db->sql($sql, $bind);
+}
 ?>
 <!DOCTYPE html>
 <html lang="da">
