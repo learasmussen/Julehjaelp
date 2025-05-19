@@ -32,8 +32,7 @@ require "settings/init.php";
     <!-- Intro tekst -->
     <p class="text-center h4 mb-5 mx-md-5 instrument donate-an-amount-text">
         Her kan du donére et valgfrit beløb til Julehjælpen og være med til at give en
-        mindeværdig jul til alle børn
-    </p>
+        mindeværdig jul til børn i Danmark</p>
 
     <!-- Indsamlet beløb på mobil -->
     <div class="text-center my-3 d-md-none">

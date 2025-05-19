@@ -29,7 +29,7 @@ require "settings/init.php";
 
     <!-- Overskrift og tekst -->
     <h2 class="text-darkgreen fw-bold text-center pt-5 pb-3 roboto wishingtree-text-navbar">INFORMATION</h2>
-    <p class="text-center h4 mb-5 mx-md-5 instrument donate-an-amount-text">Her kan du læse information om Julehjælp og Ønsketræet</p>
+    <p class="text-center h4 mb-5 mx-md-5 instrument donate-an-amount-text">Her kan du læse mere om Julehjælp & Ønsketræet</p>
 
     <div class="d-flex flex-column flex-md-row mb-4 px-md-3 px-lg-5">
         <!-- Første grønne boks -->
