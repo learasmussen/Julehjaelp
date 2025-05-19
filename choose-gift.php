@@ -33,7 +33,7 @@ require "settings/init.php";
 <div class="container g-2 mt-5 mb-5">
     <div class="row">
         <?php
-        $sql = "SELECT * FROM wishes ORDER BY wishId ASC LIMIT 3";
+        $sql = "SELECT * FROM wishes WHERE wishPaid IS NULL ORDER BY wishId ASC LIMIT 3";
         $wishes = $db->sql($sql);
 
         foreach ($wishes as $wish): ?>
@@ -48,7 +48,7 @@ require "settings/init.php";
                                 Ønsker sig: <?php echo $wish->wishWish; ?>
                             </h4>
                         </div>
-                        <a href="/payment-gift.php" class="btn btn-yellow fw-bold px-4 py-2 mt-4 w-75 mx-auto">Vælg gave</a>
+                        <a href="/payment-gift.php?wishId=<?php echo $wish->wishId; ?>" class="btn btn-yellow fw-bold px-4 py-2 mt-4 w-75 mx-auto">Vælg gave</a>
                     </div>
                 </div>
             </div>

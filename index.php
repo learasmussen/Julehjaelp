@@ -42,11 +42,11 @@ require "settings/init.php";
 <div class="container text-center">
     <h1 class= "text-darkgreen text-center fw-bold wishingtree-text-navbar pt-5 d-block d-md-none">ØNSKETRÆET</h1>
 </div>
-<div class="container text-center mt-4 d-block d-md-none">
+<div class="container text-center mt-4 d-block d-md-none mb-5">
     <p class="instrument h5">Velkommen til Julehjælp!</p>
     <p class="instrument h5 pt-3">Giv julehjælpen videre, vælg et ønske og gør <br> julen magisk for en anden</p>
     <img class="img-fluid px-3 py-4" src="images/træ.png" alt="træ">
-    <a class="btn btn-yellow btn-lg py-2 fw-bold w-50" href="choose-gift.php">Giv en gave</a>
+    <a class="btn btn-yellow btn-lg py-2 fw-bold w-50 mb-5" href="choose-gift.php">Giv en gave</a>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

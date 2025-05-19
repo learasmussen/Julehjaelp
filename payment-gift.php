@@ -100,10 +100,13 @@ require "settings/init.php";
             </div>
 
             <!-- Knap med fuldfør betaling -->
+            <form action="thank-you.php" method="post">
+                <input type="text" name="wishId" value="<?php echo $_GET["wishId"]; ?>">
             <div class="text-center">
-                <a class="btn btn-yellow btn-lg fw-bold py-2 px-5 mt-5" href="thank-you.php">Fuldfør betaling</a>
+                <button type="submit" class="btn btn-yellow btn-lg fw-bold py-2 px-5 mt-5" href="thank-you.php">Fuldfør betaling</button>
                 <a class="btn btn-lg fw-bold text-decoration-underline mt-5" href="choose-gift.php">Gå tilbage</a>
             </div>
+            </form>
         </div>
     </div>
 </div>
@@ -181,11 +184,14 @@ require "settings/init.php";
             </div>
 
             <!-- Knap med fuldfør betaling -->
+            <form action="thank-you.php" method="post">
+                <input type="text" name="wishId" value="<?php echo $_GET["wishId"]; ?>">
             <div class="text-center">
-                <a class="btn btn-yellow btn-lg fw-bold w-50" href="thank-you.php">Fuldfør betaling</a>
+                <button type="submit" class="btn btn-yellow btn-lg fw-bold w-50" href="thank-you.php">Fuldfør betaling</button>
                 <br>
                 <a class="btn btn-lg fw-bold text-decoration-underline mt-3 text-black" href="choose-gift.php">Gå tilbage</a>
             </div>
+            </form>
         </div>
     </div>
 </div>

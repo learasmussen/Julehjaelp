@@ -49,7 +49,7 @@ require "settings/init.php";
         </div>
 
         <!-- Anden grønne boks -->
-        <div class="col-md-6 bg-darkgreen text-white p-4 rounded-5 flex-fill mx-md-2">
+        <div class="col-md-6 bg-darkgreen text-white p-4 rounded-5 flex-fill mx-md-2 ">
             <h5 class="fw-bold info-header-text text-center pb-3 mb-0 roboto">ØNSKETRÆET</h5>
             <p class="mb-0 info-middle-text py-3 instrument">Et digitalt juletræ med ønsker fra danske børn i krisecentre og lignende.</p>
             <ul class="mb-0 info-list-items pb-3 pt-4 instrument px-3">
