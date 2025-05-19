@@ -30,8 +30,8 @@ require "settings/init.php";
     <div class="position-absolute top-50 start-50 translate-middle text-center">
         <h1 class="fw-bold thank-you-header roboto">TAK</h1>
         <p class="thank-you-text instrument text-black">Julemanden er på sagen!</p>
-        <a href="info.php" class="btn btn-yellow btn-lg fw-bold py-2 px-5 mt-5">Information</a>
-        <a class="btn btn-lg fw-bold text-decoration-underline mt-5" href="index.php">Tilbage til forsiden</a>
+        <a href="info.php" class="btn btn-yellow btn-lg fw-bold py-2 px-5 mt-5">INFORMATION</a>
+        <a class="btn btn-lg fw-bold text-decoration-underline mt-5" href="index.php">TILBAGE TIL FORSIDEN</a>
     </div>
 </div>
 
@@ -44,8 +44,8 @@ require "settings/init.php";
     <p class="instrument h1">Julemanden er på sagen!</p>
     <img class="img-fluid px-3 py-4" src="images/santa-claus-santa.gif" alt="GIF med julemand">
     <div class="pt-5">
-    <a class="btn btn-yellow btn-lg fw-bold w-50 py-2" href="info.php">Information</a>
+    <a class="btn btn-yellow btn-lg fw-bold w-50 py-2" href="info.php">INFORMATION</a>
     <br>
-    <a class="btn btn-lg pt-4 fw-bold text-decoration-underline" href="index.php">Tilbage til forsiden</a>
+    <a class="btn btn-lg pt-4 fw-bold text-decoration-underline" href="index.php">TILBAGE TIL FORSIDEN</a>
     </div>
 </div>

@@ -48,7 +48,7 @@ require "settings/init.php";
                                 Ønsker sig: <?= htmlspecialchars($wish->wishWish) ?>
                             </h4>
                         </div>
-                        <a href="/payment-gift.php" class="btn btn-yellow fw-bold px-4 py-2 mt-4 w-75 mx-auto">Vælg gave</a>
+                        <a href="/payment-gift.php" class="btn btn-yellow fw-bold px-4 py-2 mt-4 w-75 mx-auto">VÆLG GAVE</a>
                     </div>
                 </div>
             </div>

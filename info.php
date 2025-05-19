@@ -45,7 +45,7 @@ require "settings/init.php";
 
         <!-- Gul knap: Mobil -->
         <div class="text-center d-md-none my-3">
-            <a href="payment.php" class="btn btn-yellow fw-bold px-4 py-2 doner-et-beløb-knap roboto">Donér et valgfrit beløb</a>
+            <a href="payment.php" class="btn btn-yellow fw-bold px-4 py-2 doner-et-beløb-knap roboto">DONER ET VALGFRIT BELØB</a>
         </div>
 
         <!-- Anden grønne boks -->
@@ -63,7 +63,7 @@ require "settings/init.php";
 
     <!-- Gul knap: Desktop -->
     <div class="text-center d-none d-md-flex justify-content-center mt-lg-5 pb-5">
-        <a href="payment.php" class="btn btn-yellow btn-lg fw-bold px-4 py-2 roboto">Donér et valgfrit beløb</a>
+        <a href="payment.php" class="btn btn-yellow btn-lg fw-bold px-4 py-2 roboto">DONER ET VALGFRIT BELØB</a>
     </div>
 </div>
 

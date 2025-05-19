@@ -101,8 +101,8 @@ require "settings/init.php";
 
             <!-- Knap med fuldfør betaling -->
             <div class="text-center">
-                <a class="btn btn-yellow btn-lg fw-bold py-2 px-5 mt-5" href="thank-you.php">Fuldfør betaling</a>
-                <a class="btn btn-lg fw-bold text-decoration-underline mt-5" href="choose-gift.php">Gå tilbage</a>
+                <a class="btn btn-yellow btn-lg fw-bold py-2 px-5 mt-5" href="thank-you.php">FULDFØR BETALING</a>
+                <a class="btn btn-lg fw-bold text-decoration-underline mt-5" href="choose-gift.php">GÅ TILBAGE</a>
             </div>
         </div>
     </div>
@@ -182,9 +182,9 @@ require "settings/init.php";
 
             <!-- Knap med fuldfør betaling -->
             <div class="text-center">
-                <a class="btn btn-yellow btn-lg fw-bold w-50" href="thank-you.php">Fuldfør betaling</a>
+                <a class="btn btn-yellow btn-lg fw-bold w-50" href="thank-you.php">FULDFØR BETALING</a>
                 <br>
-                <a class="btn btn-lg fw-bold text-decoration-underline mt-3 text-black" href="choose-gift.php">Gå tilbage</a>
+                <a class="btn btn-lg fw-bold text-decoration-underline mt-3 text-black" href="choose-gift.php">GÅ TILBAGE</a>
             </div>
         </div>
     </div>
