@@ -35,60 +35,48 @@ require "settings/init.php";
         mindeværdig jul til alle børn
     </p>
 
-    <!-- Doner & citatbokse side om side på tablet -->
-    <div class="row mb-5">
-        <!-- Doner forklaring boks -->
-        <div class="col-12 col-md-5 mx-auto">
-            <div class="bg-darkgreen text-white rounded-5 p-4 h-100 d-flex flex-column justify-content-between donate-boxes-text ">
-                <div>
-                    <ul class="mb-4 ps-3 instrument">
-                        <li class="mb-2">50 kr. svarer til en malebog eller et par sokker.</li>
-                        <li class="mb-2">100 kr. svarer til en T-shirt eller et lille LEGO-sæt.</li>
-                        <li class="mb-2">200 kr. svarer til en gave fra Ønsketræet.</li>
-                    </ul>
-                    <p class="mb-4 roboto">Hvert beløb tæller.</p>
-                </div>
-                <a href="payment.php" class="btn btn-yellow btn-lg fw-bold px-5 py-2 mt-auto mx-auto roboto donate-boxes-button">Donér her</a>
-            </div>
-        </div>
-
-        <!-- Indsamlet beløb -->
-        <div class="text-center my-3 d-md-none">
-            <p class="fw-medium mb-1 roboto already-donated-text">Allerede indsamlet:</p>
-            <div class="d-flex align-items-center justify-content-center">
-                <div class="border-top border-orange border-2 w-25 me-3"></div>
-                <p class="fw-bold counter-text mb-0 instrument">8.357.394 kr.</p>
-                <div class="border-top border-orange border-2 w-25 ms-3"></div>
-            </div>
-        </div>
-
-        <!-- Citat-boks -->
-        <div class="col-12 col-md-5 mx-auto">
-            <div class="bg-darkgreen text-white rounded-5 p-4 h-100 d-flex flex-column justify-content-between donate-boxes-text">
-                <div>
-                    <p class="instrument mb-3">
-                        ”Jeres hjælp til vores lille familie, mine tre sønner og mig, betyder, at vi kan få en
-                        julemiddag med alt det, der hører til, et lille juletræ, og der er en pakke under træet
-                        til hver af mine skønne drenge. Jeres julehjælp er det, der gør det muligt at holde jul
-                        for mine drenge.”
-                    </p>
-                    <p class="mb-4 roboto">– Anonym mor</p>
-                </div>
-                <a href="payment.php" class="btn btn-yellow btn-lg fw-bold px-5 py-2 mt-auto mx-auto roboto donate-boxes-button">Donér her</a>
-            </div>
-        </div>
-    </div>
-
-    <!-- Indsamlet beløb -->
-    <div class="text-center my-3 d-none d-md-block">
-        <p class="fw-medium mb-1 roboto already-donated-text">Allerede indsamlet:</p>
+    <!-- Indsamlet beløb på mobil -->
+    <div class="text-center my-3 d-md-none">
+        <p class="fw-medium mb-1 instrument fw-bold already-donated-text">Allerede indsamlet:</p>
         <div class="d-flex align-items-center justify-content-center">
             <div class="border-top border-orange border-2 w-25 me-3"></div>
             <p class="fw-bold counter-text mb-0 instrument">8.357.394 kr.</p>
             <div class="border-top border-orange border-2 w-25 ms-3"></div>
         </div>
     </div>
-</div>
+
+    <!-- Indsamlet beløb på desktop -->
+    <div class="text-center my-3 d-none d-md-block">
+        <p class="fw-medium mb-1 instrument fw-bold already-donated-text">Allerede indsamlet:</p>
+        <div class="d-flex align-items-center justify-content-center">
+            <div class="border-top border-orange border-2 w-25 me-3"></div>
+            <p class="fw-bold counter-text mb-0 instrument">8.357.394 kr.</p>
+            <div class="border-top border-orange border-2 w-25 ms-3"></div>
+        </div>
+    </div>
+
+    <!-- Citatboks -->
+    <div class="row mb-5">
+        <!-- Doner forklaring boks -->
+        <div class="col-12 col-md-6 mx-auto pt-4">
+            <div class="bg-darkgreen text-white rounded-5 p-4 d-flex flex-column justify-content-between donate-boxes-text ">
+                <div class="instrument text-center">
+                    <p class="mb-3 h2">50 kr. svarer til en malebog eller et par sokker.</p>
+                    <p class="mb-3 h2">100 kr. svarer til en T-shirt eller et lille LEGO-sæt.</p>
+                    <p class="mb-2 h2">200 kr. svarer til en gave fra Ønsketræet.</p>
+                </div>
+            </div>
+
+    <!-- Gul knap: Mobil -->
+    <div class="text-center d-md-none my-3">
+        <a href="payment.php" class="btn btn-yellow btn-lg fw-bold px-4 py-2 doner-et-beløb-knap roboto">DONER HER</a>
+    </div>
+
+    <!-- Gul knap: Desktop -->
+    <div class="text-center d-none d-md-flex justify-content-center mt-5 mt-lg-5 pb-5">
+        <a href="payment.php" class="btn btn-yellow btn-lg fw-bold px-4 py-2 roboto">DONER HER</a>
+    </div>
+
 
 <br>
 <br>
