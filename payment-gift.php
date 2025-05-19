@@ -101,7 +101,7 @@ require "settings/init.php";
 
             <!-- Knap med fuldfør betaling -->
             <form action="thank-you.php" method="post">
-                <input type="text" name="wishId" value="<?php echo $_GET["wishId"]; ?>">
+                <input type="hidden" name="wishId" value="<?php echo $_GET["wishId"]; ?>">
             <div class="text-center">
                 <a class="btn btn-yellow fw-bold py-2 px-5 mt-5" href="thank-you.php">FULDFØR BETALING</a>
                 <a class="btn fw-bold text-decoration-underline mt-5" href="choose-gift.php">GÅ TILBAGE</a>
@@ -185,7 +185,7 @@ require "settings/init.php";
 
             <!-- Knap med fuldfør betaling -->
             <form action="thank-you.php" method="post">
-                <input type="text" name="wishId" value="<?php echo $_GET["wishId"]; ?>">
+                <input type="hidden" name="wishId" value="<?php echo $_GET["wishId"]; ?>">
             <div class="text-center">
                 <a class="btn btn-yellow fw-bold w-50" href="thank-you.php">FULDFØR BETALING</a>
                 <br>
