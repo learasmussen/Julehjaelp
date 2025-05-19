@@ -61,9 +61,9 @@ require "settings/init.php";
         <div class="col-12 col-md-6 mx-auto pt-4">
             <div class="bg-darkgreen text-white rounded-5 p-4 d-flex flex-column justify-content-between donate-boxes-text ">
                 <div class="instrument text-center">
-                    <p class="mb-3 h2">50 kr. svarer til en malebog eller et par sokker.</p>
-                    <p class="mb-3 h2">100 kr. svarer til en T-shirt eller et lille LEGO-sæt.</p>
-                    <p class="mb-2 h2">200 kr. svarer til en gave fra Ønsketræet.</p>
+                    <p class="mb-3 h3">50 kr. svarer til en malebog eller et par sokker.</p>
+                    <p class="mb-3 h3">100 kr. svarer til en T-shirt eller et lille LEGO-sæt.</p>
+                    <p class="mb-2 h3">200 kr. svarer til en gave fra Ønsketræet.</p>
                 </div>
             </div>
 
