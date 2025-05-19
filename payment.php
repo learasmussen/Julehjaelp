@@ -189,9 +189,9 @@ require "settings/init.php";
 
             <!-- Knap med fuldfør betaling -->
             <div class="text-center">
-                <a class="btn btn-yellow btn-lg fw-bold w-50 py-2" href="thank-you.php">FULDFØR BETALING</a>
+                <a class="btn btn-yellow fw-bold w-50 py-2" href="thank-you.php">FULDFØR BETALING</a>
                 <br>
-                <a class="btn btn-lg fw-bold text-decoration-underline mt-3 text-black" href="donate.php">GÅ TILBAGE</a>
+                <a class="btn fw-bold text-decoration-underline mt-3 text-black" href="donate.php">GÅ TILBAGE</a>
             </div>
         </div>
     </div>

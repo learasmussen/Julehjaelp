@@ -68,8 +68,8 @@ require "settings/init.php";
             </div>
 
     <!-- Gul knap: Mobil -->
-    <div class="text-center d-md-none my-3">
-        <a href="payment.php" class="btn btn-yellow btn-lg fw-bold px-4 py-2 doner-et-beløb-knap roboto">DONER HER</a>
+    <div class="text-center d-md-none my-3 pt-4">
+        <a href="payment.php" class="btn btn-yellow fw-bold px-4 py-2 doner-et-beløb-knap roboto">DONER HER</a>
     </div>
 
     <!-- Gul knap: Desktop -->

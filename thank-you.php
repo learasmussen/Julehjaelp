@@ -61,8 +61,8 @@ if (!empty($_POST)) {
     <p class="instrument h1">Julemanden er på sagen!</p>
     <img class="img-fluid px-3 py-4" src="images/santa-claus-santa.gif" alt="GIF med julemand">
     <div class="pt-5">
-    <a class="btn btn-yellow btn-lg fw-bold w-50 py-2" href="info.php">INFORMATION</a>
+    <a class="btn btn-yellow fw-bold w-50 py-2" href="info.php">INFORMATION</a>
     <br>
-    <a class="btn btn-lg pt-4 fw-bold text-decoration-underline" href="index.php">TILBAGE TIL FORSIDEN</a>
+    <a class="btn pt-4 fw-bold text-decoration-underline" href="index.php">TILBAGE TIL FORSIDEN</a>
     </div>
 </div>

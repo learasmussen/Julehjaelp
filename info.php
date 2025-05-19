@@ -44,7 +44,7 @@ require "settings/init.php";
         </div>
 
         <!-- Gul knap: Mobil -->
-        <div class="text-center d-md-none my-3">
+        <div class="text-center d-md-none my-3 pb-3">
             <a href="payment.php" class="btn btn-yellow fw-bold px-4 py-2 doner-et-beløb-knap roboto">DONER ET VALGFRIT BELØB</a>
         </div>
 
@@ -66,6 +66,10 @@ require "settings/init.php";
         <a href="payment.php" class="btn btn-yellow btn-lg fw-bold px-4 py-2 roboto">DONER ET VALGFRIT BELØB</a>
     </div>
 </div>
+
+<br>
+<br>
+<br>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js.js"></script>
