@@ -20,8 +20,7 @@ require "settings/init.php";
 
 <?php include("includes/navbar.php") ?>
 
-
-<div class="container mb-5 px-4 px-md-0">
+<div class="container px-4 px-md-0">
     <!-- Overskrift -->
     <h2 class="text-darkgreen fw-bold text-center roboto pt-5 pb-3 wishingtree-text-navbar">VÆLG EN GAVE</h2>
 
@@ -30,25 +29,28 @@ require "settings/init.php";
 
 </div>
 
-<div class="container g-2 mt-5 mb-5">
+<div class="container mt-5 mb-5">
     <div class="row">
         <?php
         $sql = "SELECT * FROM wishes WHERE wishPaid IS NULL ORDER BY wishId ASC LIMIT 3";
         $wishes = $db->sql($sql);
 
         foreach ($wishes as $wish): ?>
-            <div class="col-12 col-md-4 mb-5">
-                <div class="gift-card text-white text-center d-flex">
-                    <div class="card-body d-flex flex-column p-4">
-                        <div class="mt-auto">
+            <div class="col-12 col-md-4 mb-5 d-flex justify-content-around">
+                <div class="position-relative bg-darkgreen rounded-4 box-container mb-5">
+                    <div class="position-absolute top-0 start-50 translate-middle-x">
+                        <img src="images/slojfe.png" alt="Flot rød/orange gavesløjfe" class="img-fluid bow-img">
+                    </div>
+                    <div class="text-white d-flex justify-content-center pt-5">
+                        <div class="d-flex flex-column text-center mt-4">
                             <h2 class="mb-2 instrument">
                                 <?php echo $wish->wishName; ?> <?php echo $wish->wishAge; ?> år
                             </h2>
-                            <h4 class="mb-4 instrument">
+                            <h4 class=" instrument">
                                 Ønsker sig: <?php echo $wish->wishWish; ?>
                             </h4>
+                            <a href="/payment-gift.php?wishId=<?php echo $wish->wishId; ?>" class="btn btn-yellow fw-bold px-4 py-2 mt-2 mx-auto">Vælg gave</a>
                         </div>
-                        <a href="/payment-gift.php?wishId=<?php echo $wish->wishId; ?>" class="btn btn-yellow fw-bold px-4 py-2 mt-4 w-75 mx-auto">Vælg gave</a>
                     </div>
                 </div>
             </div>

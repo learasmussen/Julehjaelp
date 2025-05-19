@@ -34,13 +34,18 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-family: 'Instrument Serif', serif;
 }
 
-.gift-card {
-	background-image: url('../images/slojfefinal.png'); /* adjust if your CSS file is in /css/ folder */
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	min-height: 400px;
-	position: relative;
+.box-container {
+	width: 80vw;
+	max-width: 350px;
+	height: auto;
+	aspect-ratio: 5 / 4;
+}
+
+.bow-img {
+	width: 60%;
+	min-width: 200px;
+	height: auto;
+	margin-top: -30%;
 }
 
 /*donate page*/
