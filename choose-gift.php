@@ -25,7 +25,7 @@ require "settings/init.php";
     <h2 class="text-darkgreen fw-bold text-center roboto pt-5 pb-3 wishingtree-text-navbar">VÆLG EN GAVE</h2>
 
     <!-- Intro tekst -->
-    <p class="text-center instrument h4">Vælg hvilken gave du vil give herunder.</p>
+    <p class="text-center instrument h4 pb-4">Tak for dit bidrag til Julehjælp - Vælg din gave herunder!</p>
 
 </div>
 
@@ -36,8 +36,8 @@ require "settings/init.php";
         $wishes = $db->sql($sql);
 
         foreach ($wishes as $wish): ?>
-            <div class="col-12 col-md-4 mb-5 d-flex justify-content-around">
-                <div class="position-relative bg-darkgreen rounded-4 box-container mb-5">
+            <div class="col-12 col-lg-4 px-lg-5 mb-5 d-flex justify-content-around align-items-center pt-4">
+                <div class="position-relative bg-darkgreen rounded-5 box-container py-4">
                     <div class="position-absolute top-0 start-50 translate-middle-x">
                         <img src="images/slojfe.png" alt="Flot rød/orange gavesløjfe" class="img-fluid bow-img">
                     </div>
@@ -46,10 +46,10 @@ require "settings/init.php";
                             <h2 class="mb-2 instrument">
                                 <?php echo $wish->wishName; ?> <?php echo $wish->wishAge; ?> år
                             </h2>
-                            <h4 class=" instrument">
+                            <h4 class="instrument pb-4">
                                 Ønsker sig: <?php echo $wish->wishWish; ?>
                             </h4>
-                            <a href="/payment-gift.php?wishId=<?php echo $wish->wishId; ?>" class="btn btn-yellow fw-bold px-4 py-2 mt-2 mx-auto">Vælg gave</a>
+                            <a href="/payment-gift.php?wishId=<?php echo $wish->wishId; ?>" class="btn btn-yellow fw-bold px-4 py-2 pt-2 mx-auto">VÆLG GAVE</a>
                         </div>
                     </div>
                 </div>

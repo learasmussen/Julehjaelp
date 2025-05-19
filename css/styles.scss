@@ -34,13 +34,18 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	font-family: 'Instrument Serif', serif;
 }
 
+/*gaver med sløjfer*/
 .box-container {
-	width: 80vw;
-	max-width: 350px;
-	height: auto;
-	aspect-ratio: 5 / 4;
-}
+	width: 70%;
 
+	@include media-breakpoint-up(md){
+		width: 40%;
+	}
+
+	@include media-breakpoint-up(lg){
+		width: 80%;
+	}
+}
 .bow-img {
 	width: 60%;
 	min-width: 200px;
