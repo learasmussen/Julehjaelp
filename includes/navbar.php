@@ -23,14 +23,16 @@
         <!-- Fremhævning -->
         <div class="nav-highlight" id="highlight">
             <div class="nav-highlight-inner" id="highlight-icon">
-                <i class="fa-solid fa-tree"></i>
+                <img src="images/julehjaelp-hat-icon.png">
             </div>
         </div>
 
         <!-- Ikoner -->
         <div class="nav-icons">
             <a href="donate.php" class="nav-icon text-decoration-none" data-icon="fa-dollar-sign"><i class="fa-solid fa-dollar-sign"></i></a>
-            <a href="index.php" class="nav-icon text-decoration-none" data-icon="fa-tree"><i class="fa-solid fa-tree"></i></a>
+            <a href="index.php" class="nav-icon text-decoration-none" data-icon="custom-image">
+                <img src="images/julehjaelp-hat-icon.png">
+            </a>
             <a href="info.php" class="nav-icon text-decoration-none" data-icon="fa-circle-info"><i class="fa-solid fa-circle-info"></i></a>
         </div>
     </div>

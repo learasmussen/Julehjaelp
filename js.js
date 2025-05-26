@@ -9,8 +9,13 @@ function moveHighlightTo(icon) {
     highlight.style.left = `${offset}px`;
 
     // Skift ikon i cirkel
-    const iconClass = icon.getAttribute('data-icon');
-    highlightIcon.innerHTML = `<i class="fa-solid ${iconClass}"></i>`;
+    const iconType = icon.getAttribute('data-icon');
+
+    if (iconType === 'custom-image') {
+        highlightIcon.innerHTML = `<img src="images/julehjaelp-hat-icon.png" style="width: 60%; height: 60%;">`;
+    } else {
+        highlightIcon.innerHTML = `<i class="fa-solid ${iconType}"></i>`;
+    }
 
     // Vis alle ikoner igen
     icons.forEach(ic => ic.style.visibility = 'visible');
@@ -28,7 +33,7 @@ window.addEventListener('load', () => {
     } else if (path.includes('info')) {
         currentIcon = document.querySelector('[data-icon="fa-circle-info"]');
     } else {
-        currentIcon = document.querySelector('[data-icon="fa-tree"]'); // default
+        currentIcon = document.querySelector('[data-icon="custom-image"]'); // default
     }
 
     if (currentIcon) {
