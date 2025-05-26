@@ -44,7 +44,7 @@ require "settings/init.php";
 </div>
 <div class="container text-center mt-4 d-block d-md-none">
     <p class="instrument h5">Velkommen til Julehjælp!</p>
-    <p class="instrument h5 pt-3">Giv julehjælpen videre, vælg et ønske og gør <br> julen magisk for en anden</p>
+    <p class="instrument h5 pt-3">Giv julehjælpen videre, vælg en gave og gør <br> julen magisk for et barn</p>
     <img class="img-fluid px-3 py-4" src="images/træ.png" alt="træ">
     <a class="btn btn-yellow py-2 fw-bold w-50" href="choose-gift.php">GIV EN GAVE</a>
 </div>
