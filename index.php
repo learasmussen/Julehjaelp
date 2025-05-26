@@ -31,7 +31,7 @@ require "settings/init.php";
 <div class="position-relative text-darkgreen img-fluid d-none d-md-block" style="height: 650px; background-image: url('images/JHDeskBackground.png'); background-size: cover; background-position: center;">
     <div class="position-absolute top-50 start-50 translate-middle text-center">
         <h1 class="fw-bold" style="font-size: 70px">FÅ ET ØNSKE TIL AT GÅ I OPFYLDELSE</h1>
-        <p class="instrument h3 py-3 mt-5 text-black">Velkommen til Ønsketræet!</p>
+        <p class="instrument h3 py-3 mt-5 text-black">Velkommen til Ønskehuen!</p>
         <a href="choose-gift.php" class="btn btn-yellow btn-lg fw-bold px-5 py-2">GIV EN GAVE</a>
     </div>
 </div>
@@ -40,7 +40,7 @@ require "settings/init.php";
 <!-- Mobil version -->
 
 <div class="container text-center">
-    <h1 class= "text-darkgreen text-center fw-bold wishingtree-text-navbar pt-5 d-block d-md-none">ØNSKETRÆET</h1>
+    <h1 class= "text-darkgreen text-center fw-bold wishingtree-text-navbar pt-5 d-block d-md-none">ØNSKEHUEN</h1>
 </div>
 <div class="container text-center mt-4 d-block d-md-none">
     <p class="instrument h5">Velkommen til Julehjælp!</p>
@@ -48,6 +48,12 @@ require "settings/init.php";
     <img class="img-fluid px-3 py-4" src="images/træ.png" alt="træ">
     <a class="btn btn-yellow py-2 fw-bold w-50" href="choose-gift.php">GIV EN GAVE</a>
 </div>
+
+
+<br>
+<br>
+<br>
+<br>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js.js"></script>

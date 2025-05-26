@@ -24,7 +24,7 @@ require "settings/init.php";
 
     <!-- Intro tekst -->
     <p class="text-center instrument h4">
-        Venligst udfyld alle felter for at tilføje ønske til ønsketræet.
+        Venligst udfyld alle felter for at tilføje ønske til Ønskehuen.
     </p>
 </div>
 
