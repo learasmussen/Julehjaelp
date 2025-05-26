@@ -2,7 +2,7 @@
 require "classes/classDB.php";
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
-
+date_default_timezone_set('Europe/Copenhagen');
 /*
  * Guide
  * define("CONFIG_LIVE", "0"); kan skiftes til f.eks. define("CONFIG_LIVE", "1"); for at ændre til live

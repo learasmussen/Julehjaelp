@@ -32,7 +32,7 @@ require "settings/init.php";
     <div class="position-absolute top-50 start-50 translate-middle text-center">
         <h1 class="fw-bold" style="font-size: 70px">FÅ ET ØNSKE TIL AT GÅ I OPFYLDELSE</h1>
         <p class="instrument h3 py-3 mt-5 text-black">Velkommen til Ønsketræet!</p>
-        <a href="choose-gift.php" class="btn btn-yellow btn-lg fw-bold px-5 py-2">Giv en gave</a>
+        <a href="choose-gift.php" class="btn btn-yellow btn-lg fw-bold px-5 py-2">GIV EN GAVE</a>
     </div>
 </div>
 
@@ -46,7 +46,7 @@ require "settings/init.php";
     <p class="instrument h5">Velkommen til Julehjælp!</p>
     <p class="instrument h5 pt-3">Giv julehjælpen videre, vælg et ønske og gør <br> julen magisk for en anden</p>
     <img class="img-fluid px-3 py-4" src="images/træ.png" alt="træ">
-    <a class="btn btn-yellow btn-lg py-2 fw-bold w-50" href="choose-gift.php">Giv en gave</a>
+    <a class="btn btn-yellow py-2 fw-bold w-50" href="choose-gift.php">GIV EN GAVE</a>
 </div>
 
 
