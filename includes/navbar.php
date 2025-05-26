@@ -39,10 +39,10 @@
 <!-- Navbar kun synlig på desktop -->
 <nav class="navbar d-none d-md-flex d-lg-flex">
     <div class="container-fluid m-0 p-0">
-        <a class="btn roboto navbar-brand ps-3 fw-bold text-darkgreen wishingtree-text-navbar m-0 py-0" href="index.php">ØNSKETRÆET</a>
+        <a class="btn roboto navbar-brand ps-3 fw-bold text-darkgreen wishingtree-text-navbar m-0 py-0" href="index.php">ØNSKEHUEN</a>
         <div class="d-flex justify-content-evenly pe-3">
             <a class="instrument nav-link text-darkgreen nav-link-text pe-4" href="donate.php">DONÉR ET BELØB</a>
-            <a class="instrument nav-link text-darkgreen nav-link-text px-4" href="index.php">ØNSKETRÆET</a>
+            <a class="instrument nav-link text-darkgreen nav-link-text px-4" href="index.php">ØNSKEHUEN</a>
             <a class="instrument nav-link text-darkgreen nav-link-text ps-4" href="info.php">INFORMATION</a>
         </div>
 
