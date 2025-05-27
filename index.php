@@ -28,7 +28,7 @@ require "settings/init.php";
 <!-- Desktop version -->
 
 <!-- Baggrund og overskrift -->
-<div class="position-relative text-darkgreen img-fluid d-none d-md-block" style="height: 650px; background-image: url('images/julehjaelp-background.png'); background-size: cover; background-position: center;">
+<div class="position-relative text-darkgreen img-fluid d-none d-md-block" style="height: 650px; background-image: url('images/julehjaelp-background-hat.png'); background-size: cover; background-position: center;">
     <div class="position-absolute top-50 start-50 translate-middle text-center">
         <h1 class="fw-bold" style="font-size: 70px">FÅ ET ØNSKE TIL AT GÅ I OPFYLDELSE</h1>
         <p class="instrument h3 py-3 mt-5 text-black">Velkommen til Ønskehuen!</p>
@@ -40,12 +40,12 @@ require "settings/init.php";
 <!-- Mobil version -->
 
 <div class="container text-center">
-    <h1 class= "text-darkgreen text-center fw-bold wishingtree-text-navbar pt-3 d-block d-md-none">ØNSKEHUEN</h1>
+    <h1 class= "text-darkgreen text-center fw-bold wishingtree-text-navbar pt-5 d-block d-md-none">ØNSKEHUEN</h1>
 </div>
 <div class="container text-center mt-4 d-block d-md-none">
     <p class="instrument h5">Velkommen til Julehjælp!</p>
-    <p class="instrument h5 pt-3">Giv julehjælpen videre, vælg en gave og gør <br> julen magisk for et barn</p>
-    <img class="img-fluid px-3 py-5" src="images/julehjaelp-hat-front-page.png" alt="træ">
+    <p class="instrument h5 pt-3">Giv juleglæden videre, vælg et ønske og gør <br> julen magisk for et barn</p>
+    <img class="img-fluid px-4 py-5" src="images/julehjaelp-hat-front-page.png" alt="træ">
     <a class="btn btn-yellow py-2 fw-bold w-50" href="choose-gift.php">GIV EN GAVE</a>
 </div>
 

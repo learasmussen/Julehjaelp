@@ -31,7 +31,7 @@ require "settings/init.php";
 
     <!-- Intro tekst -->
     <p class="text-center h4 mb-5 mx-md-5 instrument donate-an-amount-text">
-        Her kan du donére et valgfrit beløb til Julehjælpen og være med til at give en
+        Her kan du donére et valgfrit beløb til Julehjælp og være med til at give en
         mindeværdig jul til børn i Danmark</p>
 
     <!-- Indsamlet beløb på mobil -->
@@ -62,7 +62,7 @@ require "settings/init.php";
                 <div class="instrument text-center">
                     <p class="mb-3 h3">50 kr. svarer til en malebog eller et par sokker.</p>
                     <p class="mb-3 h3">100 kr. svarer til en T-shirt eller et lille LEGO-sæt.</p>
-                    <p class="mb-2 h3">200 kr. svarer til en gave fra Ønsketræet.</p>
+                    <p class="mb-2 h3">200 kr. svarer til en gave fra Ønskehuen.</p>
                 </div>
             </div>
 
