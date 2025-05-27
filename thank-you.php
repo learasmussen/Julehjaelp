@@ -43,7 +43,7 @@ if (!empty($_POST)) {
 <?php include("includes/navbar.php") ?>
 
 <!-- Desktop version -->
-<div class="position-relative text-darkgreen img-fluid d-none d-md-block" style="height: 650px; background-image: url('images/JHDeskBackground.png'); background-size: cover; background-position: center;">
+<div class="position-relative text-darkgreen img-fluid d-none d-md-block" style="height: 650px; background-image: url('images/julehjaelp-background-hat.png'); background-size: cover; background-position: center;">
     <div class="position-absolute top-50 start-50 translate-middle text-center">
         <h1 class="fw-bold thank-you-header roboto">TAK</h1>
         <p class="thank-you-text instrument text-black">Julemanden er på sagen!</p>
@@ -66,3 +66,7 @@ if (!empty($_POST)) {
     <a class="btn pt-4 fw-bold text-decoration-underline" href="index.php">TILBAGE TIL FORSIDEN</a>
     </div>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
