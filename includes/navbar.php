@@ -18,7 +18,7 @@
 <body>
 
 <!-- Bottom navigation -->
-<div class="bottom-nav bg-darkgreen d-flex justify-content-center position-fixed d-md-none d-lg-none p-0">
+<div class="bottom-nav bg-darkgreen d-flex justify-content-center fixed-bottom d-md-none d-lg-none p-0">
     <div class="nav-wrapper">
         <!-- Fremhævning -->
         <div class="nav-highlight" id="highlight">
@@ -31,7 +31,7 @@
         <div class="nav-icons">
             <a href="donate.php" class="nav-icon text-decoration-none" data-icon="fa-dollar-sign"><i class="fa-solid fa-dollar-sign"></i></a>
             <a href="index.php" class="nav-icon text-decoration-none" data-icon="custom-image">
-                <img src="images/julehjaelp-hat-icon.png">
+                <img src="images/julehjaelp-hat-icon.png" alt="nissehue" style="width: 28px;">
             </a>
             <a href="info.php" class="nav-icon text-decoration-none" data-icon="fa-circle-info"><i class="fa-solid fa-circle-info"></i></a>
         </div>
