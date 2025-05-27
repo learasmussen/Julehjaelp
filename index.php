@@ -40,7 +40,7 @@ require "settings/init.php";
 <!-- Mobil version -->
 
 <div class="container text-center">
-    <h1 class= "text-darkgreen text-center fw-bold wishingtree-text-navbar pt-5 d-block d-md-none">ØNSKEHUEN</h1>
+    <h1 class= "text-darkgreen text-center fw-bold wishingtree-text-navbar pt-3 d-block d-md-none">ØNSKEHUEN</h1>
 </div>
 <div class="container text-center mt-4 d-block d-md-none">
     <p class="instrument h5">Velkommen til Julehjælp!</p>
