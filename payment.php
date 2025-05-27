@@ -28,7 +28,7 @@ require "settings/init.php";
 
 <!-- Baggrundsbillede -->
 <div class="position-relative img-fluid d-none d-md-block"
-     style="height: 650px; background-image: url('images/JHDeskBackground.png'); background-size: cover; background-position: center;">
+     style="height: 650px; background-image: url('images/julehjaelp-background-hat.png'); background-size: cover; background-position: center;">
 
     <!-- Overskrift og tekstfelt -->
     <div class="container text-center mb-4 pt-5">
