@@ -18,6 +18,7 @@ require "settings/init.php";
 </head>
 <body>
 
+<!-- overskrift section -->
 <div class="container mt-5 mb-5">
     <!-- Overskrift -->
     <h1 class="text-darkgreen fw-bold text-center mb-3">Velkommen til Ønskeportalen</h1>
@@ -29,7 +30,7 @@ require "settings/init.php";
 </div>
 
 
-
+<!-- udfyld section-->
 <div class="container d-flex flex-column mt-5">
     <div class="flex-grow-1 d-flex justify-content-center align-items-center">
         <div class="col-10 col-md-6 col-lg-5">

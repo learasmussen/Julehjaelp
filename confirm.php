@@ -40,13 +40,14 @@ if (!empty($_POST)) {
 </head>
 <body>
 
-
+<!-- confirm section-->
 <div class="container vh-100 d-flex justify-content-center align-items-center">
     <div class="row text-center">
         <!-- Overskrift og tekst -->
         <div class="col-12">
             <h1 class="text-darkgreen fw-bold mb-3">Dit ønske ligger nu i Ønskehuen 🎁</h1>
-            <p class="instrument h4">Nu kan nissevenner og gavmilde sjæle finde det – så er det bare at krydse fingre og vente på julens magi.</p>
+            <p class="instrument h4">Nu kan nissevenner og gavmilde sjæle finde det – så er det bare at krydse fingre og
+                vente på julens magi.</p>
         </div>
 
         <!-- Knap -->

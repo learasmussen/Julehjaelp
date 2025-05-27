@@ -26,7 +26,7 @@ require "settings/init.php";
 
 <?php include("includes/navbar.php") ?>
 
-<!-- Baggrundsbillede -->
+<!-- Baggrundsbillede og accordian desktop-->
 <div class="position-relative img-fluid d-none d-md-block"
      style="height: 650px; background-image: url('images/julehjaelp-background-hat.png'); background-size: cover; background-position: center;">
 
@@ -43,6 +43,7 @@ require "settings/init.php";
         </div>
     </div>
 
+    <!-- accordian-->
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-6">
@@ -112,9 +113,7 @@ require "settings/init.php";
     </div>
 </div>
 
-
 <!-- Mobil version -->
-
 <!-- Overskrift og tekstfelt -->
 <div class="container text-center mb-4 pt-5 pb-3 d-md-none">
     <h1 class="fw-bold roboto wishingtree-text-navbar text-darkgreen">BETALING</h1>
@@ -128,6 +127,7 @@ require "settings/init.php";
     </div>
 </div>
 
+<!-- accordian -->
 <div class="container d-md-none">
     <div class="row justify-content-center">
         <div class="col-12 col-lg-6">
