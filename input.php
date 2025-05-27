@@ -55,10 +55,16 @@ require "settings/init.php";
 
                 <!-- Submit knap -->
                 <div class="text-center pt-2">
-                    <button type="submit" class="btn btn-yellow px-5">TILFØJ ØNSKE</button>
+                    <button type="submit" class="btn btn-yellow px-5 fw-bold">TILFØJ ØNSKE</button>
                 </div>
             </form>
 
         </div>
     </div>
 </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js.js"></script>
+</body>
+</html>

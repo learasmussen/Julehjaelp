@@ -28,7 +28,7 @@ if (!empty($_POST)) {
 <head>
     <meta charset="utf-8">
 
-    <title>Ønske tilføjet 🎉</title>
+    <title>Ønske tilføjet! 🎉</title>
 
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
@@ -40,16 +40,24 @@ if (!empty($_POST)) {
 </head>
 <body>
 
-<div class="container mt-5 mb-5">
-    <!-- Overskrift -->
-    <h2 class="text-darkgreen fw-bold text-center mb-3">Wuhuuuu, det var en succes!</h2>
 
-    <!-- Intro tekst -->
-    <p class="text-center instrument h4">
-        Ønsket er tilføjet til Julemandens ønskeliste - nu er det bare at vente 🎅🏼
-    </p>
+<div class="container vh-100 d-flex justify-content-center align-items-center">
+    <div class="row text-center">
+        <!-- Overskrift og tekst -->
+        <div class="col-12">
+            <h1 class="text-darkgreen fw-bold mb-3">Dit ønske ligger nu i Ønskehuen 🎁</h1>
+            <p class="instrument h4">Nu kan nissevenner og gavmilde sjæle finde det – så er det bare at krydse fingre og vente på julens magi.</p>
+        </div>
 
-    <div class="text-center">
-        <a href="input.php" class="btn btn-darkgreen text-white w-50 mt-4">Tilføj nyt ønske</a>
+        <!-- Knap -->
+        <div class="col-8 col-md-4 col-lg-3 mx-auto pt-5">
+            <a href="input.php" class="btn btn-yellow w-100 fw-bold">TILFØJ NYT ØNSKE</a>
+        </div>
     </div>
 </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js.js"></script>
+</body>
+</html>

@@ -39,9 +39,14 @@ require "settings/init.php";
                 <span class="input-group-text border-black bg-white"><i class="fa-solid fa-lock"></i></span>
                 <input type="password" class="form-control border-black" placeholder="ADGANGSKODE">
             </div>
-            <a href="input.php" class="btn btn-yellow w-100 mt-4">LOG IND</a>
+            <a href="input.php" class="btn btn-yellow w-100 mt-4 fw-bold">LOG IND</a>
             <div class="mt-2 text-end">
-                <a class="text-darkgreen">Glemt adgangskode?</a>
+                <a class="text-black">Glemt adgangskode?</a>
             </div>
         </div>
     </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js.js"></script>
+</body>
+</html>
