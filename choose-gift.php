@@ -65,7 +65,7 @@ require "settings/init.php";
                             </h4>
 
                             <!-- Knap til at vælge og betale for gaven -->
-                            <a href="/payment-gift.php?wishId=<?php echo $wish->wishId; ?>"
+                            <a href="payment-gift.php?wishId=<?php echo $wish->wishId; ?>"
                                class="btn btn-yellow fw-bold px-4 py-2 pt-2 mx-auto">VÆLG GAVE</a>
                         </div>
                     </div>

@@ -103,7 +103,7 @@ require "settings/init.php";
             <form action="thank-you.php" method="post">
                 <input type="hidden" name="wishId" value="<?php echo $_GET["wishId"]; ?>">
             <div class="text-center">
-                <a class="btn btn-yellow fw-bold py-2 px-5 mt-5" href="thank-you.php">FULDFØR BETALING</a>
+                <button class="btn btn-yellow fw-bold py-2 px-5 mt-5" href="thank-you.php">FULDFØR BETALING</button>
                 <a class="btn fw-bold text-decoration-underline mt-5" href="choose-gift.php">GÅ TILBAGE</a>
             </div>
             </form>
@@ -181,12 +181,17 @@ require "settings/init.php";
 
             <!-- Knap med fuldfør betaling -->
             <form action="thank-you.php" method="post">
-                <input type="hidden" name="wishId" value="<?php echo $_GET["wishId"]; ?>">
-            <div class="text-center">
-                <a class="btn btn-yellow fw-bold w-50" href="thank-you.php">FULDFØR BETALING</a>
-                <br>
-                <a class="btn fw-bold text-decoration-underline mt-3 text-black" href="choose-gift.php">GÅ TILBAGE</a>
-            </div>
+                <?php if (isset($_GET["wishId"])): ?>
+                    <input type="hidden" name="wishId" value="<?php echo htmlspecialchars($_GET["wishId"]); ?>">
+                <?php else: ?>
+                    <p class="text-danger">Fejl: Mangler wishId.</p>
+                <?php endif; ?>
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-yellow fw-bold w-50">FULDFØR BETALING</button>
+                    <br>
+                    <a class="btn fw-bold text-decoration-underline mt-3 text-black" href="choose-gift.php">GÅ TILBAGE</a>
+                </div>
             </form>
         </div>
     </div>
